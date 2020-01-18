@@ -1,0 +1,72 @@
+
+tRNAscan-SE v.2.0.5 (October 2019) scan results (on host MacBook-Air-de-Camilo-2.local)
+Started: Sat Jan 18 17:59:40 -05 2020
+
+------------------------------------------------------------
+Sequence file(s) to search:        Data/China_PlukenetiacpDNA.fasta
+Search Mode:                       Organellar
+Results written to:                Results-trnascan/chinnesse_trnas
+Output format:                     Tabular
+Searching with:                    Infernal single-pass scan
+                                   Maximum sensitivity mode
+Covariance model:                  /Users/camilogarcia/miniconda3/lib/tRNAscan-SE/models/TRNAinf-1415.cm
+tRNA covariance model search       
+    cutoff score:                  15
+
+Temporary directory:               /var/folders/ns/yr5bjprj5pd4lb54j2phtxl00000gn/T/
+Search statistics saved in:        Results-trnascan/chinnesse_trnas_stats
+
+Pseudogene checking disabled
+------------------------------------------------------------
+
+Infernal Stats:
+-----------
+Sequences read:           1
+Infernal-confirmed tRNAs:     34
+Bases scanned by Infernal:  161733
+% seq scanned by Infernal:  100.0 %
+Script CPU time:          0.06 s
+Infernal CPU time:            226.42 s
+Scan speed:               714.3 bp/sec
+
+Infernal analysis of tRNAs ended: Sat Jan 18 18:02:02 -05 2020
+
+Overall scan speed: 714.1 bp/sec
+
+tRNAs decoding Standard 20 AA:              34
+Selenocysteine tRNAs (TCA):                 0
+Possible suppressor tRNAs (CTA,TTA,TCA):    0
+tRNAs with undetermined/unknown isotypes:   0
+Predicted pseudogenes:                      0
+                                            -------
+Total tRNAs:                                34
+
+tRNAs with introns:     	4
+
+| Ala-TGC: 2 | Ile-GAT: 2 |
+
+Isotype / Anticodon Counts:
+
+Ala     : 2	  AGC:         GGC:         CGC:         TGC: 2     
+Gly     : 1	  ACC:         GCC: 1       CCC:         TCC:       
+Pro     : 1	  AGG:         GGG:         CGG:         TGG: 1     
+Thr     : 2	  AGT:         GGT: 1       CGT:         TGT: 1     
+Val     : 2	  AAC:         GAC: 2       CAC:         TAC:       
+Ser     : 3	  AGA:         GGA: 1       CGA:         TGA: 1       ACT:         GCT: 1     
+Arg     : 3	  ACG: 2       GCG:         CCG:         TCG:         CCT:         TCT: 1     
+Leu     : 3	  AAG:         GAG:         CAG:         TAG: 1       CAA: 2       TAA:       
+Phe     : 1	  AAA:         GAA: 1                               
+Asn     : 2	  ATT:         GTT: 2                               
+Lys     : 0	                            CTT:         TTT:       
+Asp     : 1	  ATC:         GTC: 1                               
+Glu     : 1	                            CTC:         TTC: 1     
+His     : 2	  ATG:         GTG: 2                               
+Gln     : 1	                            CTG:         TTG: 1     
+Ile     : 2	  AAT:         GAT: 2       CAT:         TAT:       
+Met     : 4	                            CAT: 4                  
+Tyr     : 1	  ATA:         GTA: 1                               
+Supres  : 0	               CTA:         TTA:         TCA:       
+Cys     : 1	  ACA:         GCA: 1                               
+Trp     : 1	                            CCA: 1                  
+SelCys  : 0	                                         TCA:       
+
