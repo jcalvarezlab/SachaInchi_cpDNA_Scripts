@@ -38,6 +38,17 @@ COMMENT     GeSeq Version 1.78
             Started       25 Dec 2019 19:37:23 GMT
             Finished      25 Dec 2019 19:39:16 GMT
 FEATURES             Location/Qualifiers
+     source          1..164111
+                     /organism="Plukenetia"
+                     /organelle="plastid:chloroplast"
+     gene            complement(join(104527..105321,74890..75003))
+                     /note="blatX_hit rps12-fragment_Ptrichocarpa_GeSeq-SRS_v6,
+                     position 1 - 114, psl score 93.9, coverage 30.65%, match
+                     28.76%, fragment match 93.86%; blatX_hit
+                     rps12_Ptrichocarpa_GeSeq-SRS_v6, position 115 - 372, psl
+                     score 91.9, coverage 69.35%, match 69.09%"
+                     /trans_splicing=""
+                     /gene="rps12"
      CDS             complement(join(104527..104553,105091..105321,
                      74890..75003))
                      /trans_splicing=""
@@ -52,6 +63,12 @@ FEATURES             Location/Qualifiers
                      /translation="MPTIKQLIRNTRKPIRNITKSPALGGCPQRRGTCTRVYTITPKKP
                      NSALRKVARVRLTSGFEITAYIPGIGHNSQEHSVVLVRGGRVKDLPGVRYHIVRGTLDA
                      VGVKDRQQGRSQYGVKKPK"
+     gene            complement(104..1165)
+                     /note="HMMER_hit psbA, position 1 - 1062, E-Value 0, score
+                     1157.0; blatX_hit psbA_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     1062, psl score 98.2, coverage 100.00%, match 98.12%;
+                     merged"
+                     /gene="psbA"
      CDS             complement(104..1165)
                      /gene="psbA"
                      /translation="MTAILERRESESLWGRFCNWITSTENRLYIGWFGVLMIPTLLTAT
@@ -61,6 +78,18 @@ FEATURES             Location/Qualifiers
                      LIRETTENESANEGYRFGQEEETYNIVAAHGYFGRLIFQYASFNNSRSLHFFLAAWPVV
                      GIWFTALGISTMAFNLNGFNFNQSVVDSQGRVINTWADIINRANLGMEVMHERNAHNFP
                      LDLAVGEAPSING"
+     misc_feature    complement(251..845)
+                     /note="HMMER_hit psbD, position 361 - 886, E-Value 4e-24,
+                     score 85.8"
+                     /gene="psbD"
+     misc_feature    complement(1802..3328)
+                     /note="HMMER_hit matK, position 1 - 1515, E-Value 0, score
+                     1208.0"
+                     /gene="matK"
+     gene            complement(1811..3328)
+                     /note="blatX_hit matK_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     1521, psl score 95.5, coverage 99.80%, match 94.94%"
+                     /gene="matK"
      CDS             complement(1811..3328)
                      /gene="matK"
                      /translation="MEEYQRYLELDRSRKNNFLYPFIFREYIYTFAHDHRSTLLENVGY
@@ -72,23 +101,109 @@ FEATURES             Location/Qualifiers
                      RSQMLENSFIIDKDNTMKKLDTIVPIIPLIGSLAKTKFCNAVGHPISKPTRADSADSDI
                      IDRFVRIYRNLSHYYSGSSKKKNLYRIKYILRLSCVKTLARKHKSTVRTFLKRLGLELL
                      EEFFTETEEEQILSLIFPMVSSSLRRLYRGRVWYLDIISINDLANHQ"
+     gene            complement(4805..5974)
+                     /note="blatX_hit rps16_Hbrasiliensis_GeSeq-SRS_v6, position
+                     1 - 267, psl score 88.1, coverage 100.00%, match 95.88%"
+                     /gene="rps16"
      CDS             complement(join(4805..5030,5934..5974))
                      /gene="rps16"
                      /translation="MVKLRLKRCGRKQRAVYRIVAIDVRSRRAGRDLRKVGFYDPLKNQ
                      TYLNVPAILYFFEKGAQPTGTVHDILNKAGVFTELRLNQRQFT"
+     exon            complement(4805..5030)
+                     /number=2
+                     /gene="rps16"
+     intron          complement(5031..5933)
+                     /number=1
+                     /gene="rps16"
+     exon            complement(5934..5974)
+                     /number=1
+                     /gene="rps16"
+     misc_feature    complement(4814..5040)
+                     /note="HMMER_hit rps16, position 37 - 255, E-Value 1.5e-56,
+                     score 194.0"
+                     /gene="rps16"
+     misc_feature    complement(5913..5974)
+                     /note="HMMER_hit rps16, position 1 - 47, E-Value 6.5e-08,
+                     score 35.3"
+                     /gene="rps16"
+     tRNA            complement(7089..7160)
+                     /gene="trnQ-UUG"
+     gene            complement(7089..7160)
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     58.9"
+                     /gene="trnQ-UUG"
+     gene            7589..7774
+                     /note="HMMER_hit psbK, position 1 - 186, E-Value 2.1e-44,
+                     score 153.8; blatX_hit psbK_Rcommunis_GeSeq-SRS_v6,
+                     position 1 - 186, psl score 99.0, coverage 100.00%, match
+                     98.92%; merged"
+                     /gene="psbK"
      CDS             7589..7774
                      /gene="psbK"
                      /translation="MLNIFSLICICLNSDLYSSNFFFTKLPEAYAFLNPIVDVMPVIPV
                      LFFLLAFVWQAAVSFR"
+     gene            8179..8289
+                     /note="HMMER_hit psbI, position 1 - 111, E-Value 6.1e-28,
+                     score 100.5; blatX_hit psbI_Rcommunis_GeSeq-SRS_v6,
+                     position 1 - 111, psl score 99.1, coverage 100.00%, match
+                     99.10%; merged"
+                     /gene="psbI"
      CDS             8179..8289
                      /gene="psbI"
                      /translation="MLTLKLFVYTVVIFFVSLFIFGFLSNDPGRNPGREE"
+     tRNA            complement(8467..8553)
+                     /gene="trnS-GGA"
+     gene            complement(8467..8553)
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     75.7"
+                     /gene="trnS-GGA"
+     gene            8964..10925
+                     /note="blatX_hit ycf3_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     507, psl score 92.4, coverage 100.00%, match 99.01%"
+                     /gene="ycf3"
      CDS             join(8964..9089,9837..10062,10771..10925)
                      /gene="ycf3"
                      /translation="MPRSRITGNFIDKTFSIVANILLRIIPTTSGEKEAFTYYRDGMSA
                      QSEGNYAEALQNYYEAMRLEIDPYDRSYILYNIGLIHTSNGEHTKALEYYFRALERNPF
                      LPQALNNMAVICHYRGEQAIRQGDSEIAEAWFDQAAEYWKQAIALTPGNYIEAQNWLKI
                      TRRFE"
+     exon            8964..9089
+                     /number=1
+                     /gene="ycf3"
+     misc_feature    8964..9103
+                     /note="HMMER_hit ycf3, position 1 - 129, E-Value 2e-30,
+                     score 107.8"
+                     /gene="ycf3"
+     intron          9090..9836
+                     /number=1
+                     /gene="ycf3"
+     exon            9837..10062
+                     /number=2
+                     /gene="ycf3"
+     intron          10063..10770
+                     /number=2
+                     /gene="ycf3"
+     exon            10771..10925
+                     /number=3
+                     /gene="ycf3"
+     misc_feature    9815..10084
+                     /note="HMMER_hit ycf3, position 125 - 355, E-Value 1.8e-68,
+                     score 233.1"
+                     /gene="ycf3"
+     misc_feature    9815..10000
+                     /note="HMMER_hit ycf3, position 125 - 290, E-Value 6.5e-46,
+                     score 158.8"
+                     /gene="ycf3"
+     misc_feature    10743..10925
+                     /note="HMMER_hit ycf3, position 346 - 505, E-Value 1.5e-40,
+                     score 141.2"
+                     /gene="ycf3"
+     gene            11703..13955
+                     /note="HMMER_hit psaA, position 1 - 2252, E-Value 0, score
+                     2454.8; blatX_hit psaA_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     2253, psl score 98.2, coverage 100.00%, match 98.14%;
+                     merged"
+                     /gene="psaA"
      CDS             11703..13955
                      /gene="psaA"
                      /translation="MIIRSPEPEVKILVDRDPIKTSFEEWARPGHFSRIIAKGPDTTTW
@@ -104,6 +219,12 @@ FEATURES             Location/Qualifiers
                      GRGGTCQVSAWDHVFLGLFWMYNSISVVIFHFSWKMQSDVWGSISDQGVVTHITGGNFA
                      QSSITINGWLRDFLWAQASQVIQSYGSSLSAYGLFFLGAHFVWAFSLMFLFSGRGYWQE
                      LIESIVWAHNKLKVAPATQPRALSIIQGRAVGVTHYLLGGIATTWAFFLARIIAVG"
+     gene            13981..16185
+                     /note="HMMER_hit psaB, position 1 - 2204, E-Value 0, score
+                     2380.3; blatX_hit psaB_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     2205, psl score 99.0, coverage 100.00%, match 98.91%;
+                     merged"
+                     /gene="psaB"
      CDS             13981..16185
                      /gene="psaB"
                      /translation="MALRFPRFSQGLAQDPTTRRIWFGIATAHDFESHDDITEERLYQN
@@ -119,14 +240,50 @@ FEATURES             Location/Qualifiers
                      YLAVFWMLNTIGWVTFYWHWKHITLWQGNVSQFNESSTYLMGWLRDYLWLNSSQLINGY
                      NPFGMNSLSVWAWMFLFGHLVWATGFMFLISWRGYWQELIETLAWAHERTPLANLIRWR
                      DKPVALSIVQARLVGLAHFSVGYIFTYAAFLIASTSGKFG"
+     gene            16302..16604
+                     /note="HMMER_hit rps14, position 1 - 302, E-Value 5.5e-89,
+                     score 300.5; blatX_hit rps14_Rcommunis_GeSeq-SRS_v6,
+                     position 1 - 303, psl score 98.1, coverage 100.00%, match
+                     98.02%; merged"
+                     /gene="rps14"
      CDS             16302..16604
                      /gene="rps14"
                      /translation="MARKSLIQREKKRQKLEQKYHLIRRSSKKEISKVLSLSDKWEIHG
                      KLQSPPRNSAPTRLHRRCFSTGRPRANYRDFGLSGHILREMVHACLLPGSTRSSW"
+     tRNA            16780..16853
+                     /gene="trnM-CAU"
+     gene            16780..16853
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     66.3"
+                     /gene="trnM-CAU"
+     tRNA            complement(17047..17117)
+                     /gene="trnG-GCC"
+     gene            complement(17047..17117)
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     63.0"
+                     /gene="trnG-GCC"
+     gene            complement(17946..18134)
+                     /note="HMMER_hit psbZ, position 1 - 189, E-Value 2.8e-48,
+                     score 166.8; blatX_hit psbZ_Rcommunis_GeSeq-SRS_v6,
+                     position 1 - 189, psl score 98.5, coverage 100.00%, match
+                     98.41%; merged"
+                     /gene="psbZ"
      CDS             complement(17946..18134)
                      /gene="psbZ"
                      /translation="MTIAFQLAVFALIVTSSILLISVPVVFSSPDGWSSNKNVVFSGTS
                      LWIGLVFLVGILNSLIS"
+     tRNA            18502..18591
+                     /gene="trnS-UGA"
+     gene            18502..18591
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     80.1"
+                     /gene="trnS-UGA"
+     gene            complement(18851..20236)
+                     /note="HMMER_hit psbC, position 1 - 1385, E-Value 0, score
+                     1498.4; blatX_hit psbC_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     1386, psl score 98.4, coverage 100.00%, match 98.34%;
+                     merged"
+                     /gene="psbC"
      CDS             complement(18851..20236)
                      /gene="psbC"
                      /translation="METLFNGTLSLAGRDQETTGFAWWAGNARLINLSGKLLGAHVAHA
@@ -138,6 +295,12 @@ FEATURES             Location/Qualifiers
                      GETMRFWDLRAPWLEPLRGPNGLDLSRLKKDIQPWQERRSAEYMTHAPLGSLNSVGGVA
                      TEINAVNYVSPRSWLATSHFVLGFFLFVGHLWHAGRARAAAAGFEKGIDRDFEPVLSMT
                      PLN"
+     gene            complement(20220..21281)
+                     /note="HMMER_hit psbD, position 1 - 1062, E-Value 0, score
+                     1145.9; blatX_hit psbD_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     1062, psl score 99.3, coverage 100.00%, match 99.25%;
+                     merged"
+                     /gene="psbD"
      CDS             complement(20220..21281)
                      /gene="psbD"
                      /translation="MTIALGKFTKDENDLFDIMDDWLRRDRFVFVGWSGLLLFPCAYFA
@@ -147,12 +310,64 @@ FEATURES             Location/Qualifiers
                      LFEDGDGANTFRAFNPTQAEETYSMVTANRFWSQIFGVAFSNKRWLHFFMLFVPVTGLW
                      MSALGVVGLALNLRAYDFVSQEIRAAEDPEFETFYTKNILLNEGIRAWMAAQDQPHENL
                      IFPEEVLPRGNAL"
+     misc_feature    complement(20367..20959)
+                     /note="HMMER_hit psbA, position 364 - 898, E-Value 1.2e-21,
+                     score 77.5"
+                     /gene="psbA"
+     tRNA            complement(23063..23134)
+                     /gene="trnT-GGU"
+     gene            complement(23063..23134)
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     65.9"
+                     /gene="trnT-GGU"
+     tRNA            23863..23935
+                     /gene="trnE-UUC"
+     gene            23863..23935
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     53.9"
+                     /gene="trnE-UUC"
+     tRNA            23995..24078
+                     /gene="trnY-GUA"
+     gene            23995..24078
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     63.7"
+                     /gene="trnY-GUA"
+     tRNA            24590..24663
+                     /gene="trnD-GUC"
+     gene            24590..24663
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     67.0"
+                     /gene="trnD-GUC"
+     gene            25484..25588
+                     /note="HMMER_hit psbM, position 1 - 104, E-Value 5.5e-26,
+                     score 93.9; blatX_hit psbM_Rcommunis_GeSeq-SRS_v6, position
+                     1 - 105, psl score 97.2, coverage 100.00%, match 97.14%;
+                     merged"
+                     /gene="psbM"
      CDS             25484..25588
                      /gene="psbM"
                      /translation="MEVNILAFIATALFILVPTAFLLIIYVKTVSQSD"
+     gene            complement(26859..26948)
+                     /note="HMMER_hit petN, position 1 - 89, E-Value 2.1e-24,
+                     score 88.9; blatX_hit petN_Rcommunis_GeSeq-SRS_v6, position
+                     1 - 90, psl score 97.8, coverage 100.00%, match 97.78%;
+                     merged"
+                     /gene="petN"
      CDS             complement(26859..26948)
                      /gene="petN"
                      /translation="MDIVSLAWVALMVVFTFSLSLVVWGRSGL"
+     tRNA            complement(27279..27349)
+                     /gene="trnC-GCA"
+     gene            complement(27279..27349)
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     60.7"
+                     /gene="trnC-GCA"
+     gene            28582..31794
+                     /note="HMMER_hit rpoB, position 1 - 3212, E-Value 0, score
+                     3243.0; blatX_hit rpoB_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     3213, psl score 98.0, coverage 100.00%, match 97.91%;
+                     merged"
+                     /gene="rpoB"
      CDS             28582..31794
                      /gene="rpoB"
                      /translation="MLGDGNEGISTIPGFNQIQFEGFRRFIDQGLTEELYKFPKIEDTD
@@ -174,6 +389,10 @@ FEATURES             Location/Qualifiers
                      RTGDPFEQPVIIGKPYLLKLIHQVDDKIHGRSSGHYALVTQQPLRGRAKQGGQRVGEME
                      VWALEGFGVSHILQEMLTYKSDHIRARQEVLGTTIIGGTIPKPEDAPESFRLLVRELRS
                      LALELNHFLVSEKNFQINRKEA"
+     gene            join(31821..32252,33059..34675)
+                     /note="blatX_hit rpoC1_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     2041, psl score 96.8, coverage 99.90%, match 97.70%"
+                     /gene="rpoC1"
      CDS             join(31821..32252,33059..34675)
                      /gene="rpoC1"
                      /translation="MIDRYKHQQLRIGLVSPQQISAWANKILPNGEIVGEVTKPYTFHY
@@ -188,6 +407,29 @@ FEATURES             Location/Qualifiers
                      NLLSPAIGDPISVPTQDMLIGLYVLTSGNRQGICANRYNPCNHRNFQNERIDNNNDQYT
                      KESFFSNSYDAIGAYRQKRINLDSSLWLRWQLDQRAIASREAPVEVHYESLGTYHEIYE
                      HLLIVRNIKKEILCIYIRTTVGHIYLYREIEEAIQGFCQAGSNGIES"
+     exon            31821..32252
+                     /number=1
+                     /gene="rpoC1"
+     misc_feature    31821..32282
+                     /note="HMMER_hit rpoC1, position 1 - 442, E-Value 1.6e-130,
+                     score 436.8"
+                     /gene="rpoC1"
+     intron          32253..33058
+                     /number=1
+                     /gene="rpoC1"
+     exon            33059..34675
+                     /number=2
+                     /gene="rpoC1"
+     misc_feature    33029..34669
+                     /note="HMMER_hit rpoC1, position 424 - 2040, E-Value 0,
+                     score 1574.6"
+                     /gene="rpoC1"
+     gene            34850..39037
+                     /note="HMMER_hit rpoC2, position 1 - 4134, E-Value 0, score
+                     3826.2; blatX_hit rpoC2_Rcommunis_GeSeq-SRS_v6, position 1
+                     - 4206, psl score 96.7, coverage 99.57%, match 96.08%;
+                     merged"
+                     /gene="rpoC2"
      CDS             34850..39037
                      /gene="rpoC2"
                      /translation="MAKRANLVFHNKVIDGTAIKRLISRLIDHFGMAYTSHILDQVKTL
@@ -214,6 +456,12 @@ FEATURES             Location/Qualifiers
                      IEIIVRQITSKVLVSEDGMSNVFSPGELIGLLRAERTGRALEEAICYRAILLGITRASL
                      NTQSFISEASFQETARVLAKAALRGRIDWLKGLKENVVLGGMIPVGTGFKGLVQGSRQH
                      KNIPLKTKKNNLFEGESKGRDILSHHRELFDSCISKNVYDTSEQSFIGFNDS"
+     gene            39316..40026
+                     /note="HMMER_hit rps2, position 1 - 710, E-Value 5.3e-212,
+                     score 707.0; blatX_hit rps2_Rcommunis_GeSeq-SRS_v6,
+                     position 1 - 711, psl score 98.1, coverage 100.00%, match
+                     98.03%; merged"
+                     /gene="rps2"
      CDS             39316..40026
                      /gene="rps2"
                      /translation="MIRRYWNINLEEMMKAGVHFGHGTRKWNPRMAPYISAKRKGIHIT
@@ -221,6 +469,14 @@ FEATURES             Location/Qualifiers
                      LTNWSTTETRLQKFRDLRMEQKTGRLNRLPKGDAAQLKRQLAHLQTYLGGIKYMTGLPD
                      IVIIVDQQEDYMALRECTTLGIPTICLIDTNCDPDLADISIPANDDAIASIRLILNKLV
                      FSICEGRSSYIRNP"
+     misc_feature    40310..41057
+                     /note="HMMER_hit atpI, position 5 - 743, E-Value 7.9e-225,
+                     score 749.2"
+                     /gene="atpI"
+     gene            40371..41057
+                     /note="blatX_hit atpI_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     687, psl score 98.7, coverage 100.00%, match 98.69%"
+                     /gene="atpI"
      CDS             40371..41057
                      /gene="atpI"
                      /translation="MEVGQHFYWKIGGFQVHAQVLITSWVVIAILLGSAVVAVRNPQTI
@@ -228,16 +484,51 @@ FEATURES             Location/Qualifiers
                      HGELAAPTNDINTTVALALLTSIAYFYAGLSKKGLGYFGKYIQPTPILLPINILEDFTK
                      PLSLSFRLFGNILADELVVVVLVSLVPLVVPIPVMFLGLFTSGIQALIFATLAAAYIGE
                      SMEGHH"
+     gene            42305..42550
+                     /note="HMMER_hit atpH, position 1 - 246, E-Value 1.1e-72,
+                     score 246.3; blatX_hit atpH_Rcommunis_GeSeq-SRS_v6,
+                     position 1 - 246, psl score 98.4, coverage 100.00%, match
+                     98.37%; merged"
+                     /gene="atpH"
      CDS             42305..42550
                      /gene="atpH"
                      /translation="MNPLISAASVIAAGLAVGLASIGPGVGQGTAAGQAVEGIARQPEA
                      EGKIRGTLLLSLAFMEALTIYGLVVALALLFANPFV"
+     gene            join(43237..43380,44099..44509)
+                     /note="blatX_hit atpF_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     555, psl score 93.6, coverage 99.82%, match 97.66%"
+                     /gene="atpF"
      CDS             join(43237..43380,44099..44509)
                      /gene="atpF"
                      /translation="MKNVTDSFVSLGHWPSAESFGFNTDILATNPINLSVVLGVLIFFG
                      KGVLTDLLDNRKQKILDTIRNSEELREGAIEQLEKARARLRKVEIEADQFRMNGYSEIE
                      REKLNLINSTYKTLEQLENYKNETIHFEQQRTINQVRQRVFQQALQGALGILNSCLTNE
                      LHLRTINANLGMFGTIKEITY"
+     exon            43237..43380
+                     /number=1
+                     /gene="atpF"
+     misc_feature    43237..43401
+                     /note="HMMER_hit atpF, position 1 - 145, E-Value 1.4e-38,
+                     score 134.6"
+                     /gene="atpF"
+     intron          43381..44098
+                     /number=1
+                     /gene="atpF"
+     exon            44099..44509
+                     /number=2
+                     /gene="atpF"
+     misc_feature    44079..44509
+                     /note="HMMER_hit atpF, position 145 - 554, E-Value
+                     1.7e-107, score 361.5"
+                     /gene="atpF"
+     misc_feature    44572..46111
+                     /note="HMMER_hit atpA, position 3 - 1531, E-Value 0, score
+                     1620.7"
+                     /gene="atpA"
+     gene            44575..46098
+                     /note="blatX_hit atpA_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     1524, psl score 97.9, coverage 100.00%, match 97.83%"
+                     /gene="atpA"
      CDS             44575..46098
                      /gene="atpA"
                      /translation="MVTIRADEISNIIRERIEQYNREVKIVNTGTVLQVGDGIARIYGL
@@ -249,17 +540,61 @@ FEATURES             Location/Qualifiers
                      GQIFLSADLFNAGIRPAINVGISVSRVGSAAQIKAMKQVAGKLKLELAQFAELEAFAQF
                      ASDLDKATQNQLARGQRLRELLKQSQSAPLTVEEQIMTIYTGTNGYLDSLEIGQVRKFL
                      VELRTYLKTNEPQFQEIISSTKTFTDEAETLLKEAIQEQKERFLLQEQV"
+     tRNA            complement(46193..46264)
+                     /gene="trnR-UCU"
+     gene            complement(46193..46264)
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     67.2"
+                     /gene="trnR-UCU"
+     tRNA            48710..48797
+                     /gene="trnS-GCU"
+     gene            48710..48797
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     67.5"
+                     /gene="trnS-GCU"
+     gene            complement(49104..49712)
+                     /note="HMMER_hit rps4, position 1 - 605, E-Value 8e-174,
+                     score 580.7; blatX_hit rps4_Rcommunis_GeSeq-SRS_v6,
+                     position 1 - 606, psl score 96.7, coverage 100.50%, match
+                     97.52%; merged"
+                     /gene="rps4"
      CDS             complement(49104..49712)
                      /gene="rps4"
                      /translation="MSRYRGPRFKKIRRLGALPGLTSKRPRAGSDLRTQSRSGKKSQYR
                      IRLEEKQKLRFHYGLTERQLLKYVRIAAKAKGSTGQVLLQLLEMRLDNILFRLGMASTI
                      PRARQLVNHRHILVNGRIVDIPSYRCKPRDIITARDKQKSRAMIQNYLESSPHQEELPK
                      HLTLHPFQHKGLVNQIIDNKWIGLKINELLVVEYYSRQT"
+     tRNA            complement(50125..50197)
+                     /gene="trnT-UGU"
+     gene            complement(50125..50197)
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     68.6"
+                     /gene="trnT-UGU"
+     tRNA            51677..51749
+                     /gene="trnF-GAA"
+     gene            51677..51749
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     67.1"
+                     /gene="trnF-GAA"
+     gene            complement(52499..52975)
+                     /note="HMMER_hit ndhJ, position 2 - 477, E-Value 3.2e-139,
+                     score 465.9; blatX_hit ndhJ_Rcommunis_GeSeq-SRS_v6,
+                     position 1 - 477, psl score 97.7, coverage 100.00%, match
+                     97.69%; merged"
+                     /gene="ndhJ"
      CDS             complement(52499..52975)
                      /gene="ndhJ"
                      /translation="MQGRLSTWLVKRGLVHRSLGFDYQGIETLQIKPVDWHSIAVILYV
                      YGYNYLRLQCAYDVAPGGLLASVYRLTRIEYGIDQPEEVCIKVFAPRKNPRIPSVFWVW
                      KSADFQERESYDMLGIFYDNHPRLKRILMPESWIGWPLRKDYIAPNFYEIQDAH"
+     misc_feature    complement(53114..53791)
+                     /note="HMMER_hit ndhK, position 2 - 677, E-Value 7.2e-193,
+                     score 643.5"
+                     /gene="ndhK"
+     gene            complement(53114..53791)
+                     /note="blatX_hit ndhK_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     680, psl score 97.2, coverage 99.41%, match 95.89%"
+                     /gene="ndhK"
      CDS             complement(53114..53791)
                      /gene="ndhK"
                      /translation="MNYIEFPLLDRTTQISVISTTSNDLSNWSRLSSLWPLLYGTSCCF
@@ -267,16 +602,42 @@ FEATURES             Location/Qualifiers
                      MGACTITGGMFSTDSYSTVRGVDKLIPVDVYLPGCPPKPEAVIDAIIKLRKKLSREIYE
                      DRIRSQPGNRCFTTNHKFNIEPATHTGNYDQGLLYQPPSTSTSKIPSETFFKYNKRPPE
                      LVN"
+     gene            complement(53839..54201)
+                     /note="HMMER_hit ndhC, position 1 - 362, E-Value 4.1e-101,
+                     score 340.5; blatX_hit ndhC_Rcommunis_GeSeq-SRS_v6,
+                     position 1 - 363, psl score 97.8, coverage 100.00%, match
+                     97.80%; merged"
+                     /gene="ndhC"
      CDS             complement(53839..54201)
                      /gene="ndhC"
                      /translation="MFLIYEYDIFWAFLLISSVIPILAFLISGVLSPISKGPEKLSSYE
                      SGIEPMGDAWLQFRIRYYMFALVFVVFDVETVFLYPWAMSFDVLGLSVFIEAFIFVLIL
                      IVGSVYAWRKGALEWS"
+     tRNA            55416..55488
+                     /gene="trnM-CAU"
+     gene            55416..55488
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     61.5"
+                     /gene="trnM-CAU"
+     misc_feature    complement(55735..56139)
+                     /note="HMMER_hit atpE, position 1 - 401, E-Value 6e-116,
+                     score 389.3"
+                     /gene="atpE"
+     gene            complement(55738..56139)
+                     /note="blatX_hit atpE_Hbrasiliensis_GeSeq-SRS_v6, position
+                     1 - 402, psl score 96.8, coverage 100.00%, match 96.77%"
+                     /gene="atpE"
      CDS             complement(55738..56139)
                      /gene="atpE"
                      /translation="MTLNLCVLTPNRIVWDSEVKEIILSTNSGQIGVLPNHAPIATAVD
                      IGILRICLNDQWLTMALMGGFARIGNNEITVLVNDAENGSDIDPQEAQQTLEIAEANLR
                      KAEGRRQKIEANLALRRARARVEAINVIS"
+     gene            complement(56136..57632)
+                     /note="HMMER_hit atpB, position 1 - 1497, E-Value 0, score
+                     1591.4; blatX_hit atpB_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     1497, psl score 97.6, coverage 100.00%, match 97.60%;
+                     merged"
+                     /gene="atpB"
      CDS             complement(56136..57632)
                      /gene="atpB"
                      /translation="MRINPTTSGPGVSALEKKNLGRIAQIIGPVLDVAFPPGKMPNIYN
@@ -288,6 +649,12 @@ FEATURES             Location/Qualifiers
                      TTFAHLDATTVLSRGLAAKGIYPAVDPLDSTSTMLQPQIVGEEHYETAQRVKQTLQRYK
                      ELQDIIAILGLDELSEEDRLTVARARKIERFLSQPFFVAEVFTGSPGKYVGLAETIRGF
                      KLILSGELDSLPEQAFYLVGNIDEATAKATNLEMENNLKK"
+     gene            58452..59879
+                     /note="HMMER_hit rbcL, position 1 - 1427, E-Value 0, score
+                     1543.6; blatX_hit rbcL_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     1428, psl score 98.4, coverage 100.00%, match 98.39%;
+                     merged"
+                     /gene="rbcL"
      CDS             58452..59879
                      /gene="rbcL"
                      /translation="MSPQTETKASVGFKAGVKDYKLTYYTPEYETKDTDILAAFRVTPQ
@@ -299,6 +666,10 @@ FEATURES             Location/Qualifiers
                      ITLGFVDLLRDDYIEKDRSRGIYFTQDWVSLPGVIPVASGGIHVWHMPALTEIFGDDSV
                      LQFGGGTLGHPWGNAPGAVANRVALEACVQARNEGRDLAREGNEIIREASKWSPELAAA
                      CEVWKEIKFEFPAMDTL"
+     gene            60652..62145
+                     /note="blatX_hit accD_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     1500, psl score 96.8, coverage 99.60%, match 96.33%"
+                     /gene="accD"
      CDS             60652..62145
                      /gene="accD"
                      /translation="MEKRRFNSILSNVELGYRCRLSQSMDSFSPLQNTSVSEDPILNDT
@@ -310,15 +681,43 @@ FEATURES             Location/Qualifiers
                      MGSVVGEKITRLIEYATNKFLPLILVCASGGARMQEGSLSLMQMAKISSALYDYQSNKK
                      FFFVSILTSPTTGGVTASFGMLGDIIIAEPNAYIAFAGKRVIEQTLNKTVPEGSQSAEF
                      LFHKGLFDSIVPRNPLKGVLNELLQLHNFFPLNHKSSRV"
+     misc_feature    60652..62142
+                     /note="HMMER_hit accD, position 2 - 1483, E-Value 0, score
+                     1293.8"
+                     /gene="accD"
+     gene            63146..63259
+                     /note="HMMER_hit psaI, position 1 - 109, E-Value 1e-24,
+                     score 88.2; blatX_hit psaI_Ptrichocarpa_GeSeq-SRS_v6,
+                     position 1 - 114, psl score 97.4, coverage 100.00%, match
+                     97.37%; merged"
+                     /gene="psaI"
      CDS             63146..63259
                      /gene="psaI"
                      /translation="MTILNNLPSIFVPLVGLVFPAIAMASLSLHVQKNKIF"
+     gene            63738..64292
+                     /note="HMMER_hit ycf4, position 2 - 555, E-Value 5.8e-151,
+                     score 504.6; blatX_hit ycf4_Hbrasiliensis_GeSeq-SRS_v6,
+                     position 1 - 555, psl score 96.6, coverage 100.00%, match
+                     96.58%; merged"
+                     /gene="ycf4"
      CDS             63738..64292
                      /gene="ycf4"
                      /translation="MSWRSERIWIELIAGSRKTSNFCWAFILFLGSLGFLLVGISSYLG
                      RNLISLFPSQQISFFPQGIVMSFYGIAGLFISSYLWCTILWNVGSGYDRFDRKEGIACI
                      FRWGFPGKNRRILLRFLMKDIQSIRLEVKEGIYARRVLYMEIRGRGPVPLTCTDEKLTP
                      REIEQKVAELAYFLRVPIEVF"
+     misc_feature    63972..64124
+                     /note="HMMER_hit rpl33, position 35 - 140, E-Value 8.4,
+                     score 9.5"
+                     /gene="rpl33"
+     misc_feature    65101..65806
+                     /note="HMMER_hit cemA, position 829 - 1512, E-Value
+                     3.1e-198, score 662.2"
+                     /gene="cemA"
+     gene            65120..65806
+                     /note="blatX_hit cemA_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     687, psl score 96.4, coverage 100.00%, match 96.36%"
+                     /gene="cemA"
      CDS             65120..65806
                      /gene="cemA"
                      /translation="MEKKTFIPLLYLTAIVFLPRWISFVFNKSLESWFINWCNTSKSET
@@ -326,6 +725,12 @@ FEATURES             Location/Qualifiers
                      TILHFSTNIICFVILSGYSILSNEELIILNSWVQEFLYNLSDTIKAFSILLLTDLCIGF
                      HSPHGWELMIGSVYKDFGFAHNDQIISGLVSTFPVILDTIFKYWIFRYLNRVSPSLVVI
                      YHSMND"
+     gene            66135..67097
+                     /note="HMMER_hit petA, position 1 - 963, E-Value 5.6e-298,
+                     score 991.4; blatX_hit petA_Rcommunis_GeSeq-SRS_v6,
+                     position 1 - 963, psl score 98.1, coverage 100.00%, match
+                     98.03%; merged"
+                     /gene="petA"
      CDS             66135..67097
                      /gene="petA"
                      /translation="MQTRKTFSWIKQEITRSISASLMIYIITWASISNAYPIFAQQGYE
@@ -334,41 +739,129 @@ FEATURES             Location/Qualifiers
                      PILSPDPATKKDVHFLKYPIYVGGNRGRGQIYPDGSKSNNTVYNATAAGIVSKIIRKEK
                      GGYEITITDASEGRQVIDIIPPGPELLVSEGESIKLDQPLTSNPNVGGFGQGDSEIVLQ
                      DPLRVQGLLFFLASVILAQIFLVLKKKQFEKVQLSEMNF"
+     gene            complement(68249..68371)
+                     /note="HMMER_hit psbJ, position 1 - 122, E-Value 7.5e-30,
+                     score 106.5; blatX_hit psbJ_Rcommunis_GeSeq-SRS_v6,
+                     position 1 - 123, psl score 96.8, coverage 100.00%, match
+                     96.75%; merged"
+                     /gene="psbJ"
      CDS             complement(68249..68371)
                      /gene="psbJ"
                      /translation="MADTTGRIPLWIIGTVTGILVFGLIGIFFYGSYSGLGSSL"
+     gene            complement(68513..68629)
+                     /note="HMMER_hit psbL, position 1 - 116, E-Value 3.4e-32,
+                     score 114.0; blatX_hit psbL_Rcommunis_GeSeq-SRS_v6,
+                     position 1 - 117, psl score 100.0, coverage 100.00%, match
+                     100.00%; merged"
+                     /gene="psbL"
      CDS             complement(68513..68629)
                      /gene="psbL"
                      /translation="MTQSNPNEQNVELNRTSLYWGLLLIFVLAVLFSNYFFN"
+     gene            complement(68666..68785)
+                     /note="HMMER_hit psbF, position 1 - 120, E-Value 1.5e-34,
+                     score 121.3; blatX_hit psbF_Hbrasiliensis_GeSeq-SRS_v6,
+                     position 1 - 120, psl score 97.5, coverage 100.00%, match
+                     97.50%; merged"
+                     /gene="psbF"
      CDS             complement(68666..68785)
                      /gene="psbF"
                      /translation="MTIDRTYPIFTVRWLAVHGLAVPTVSFLGSISAMQFIQR"
+     gene            complement(68794..69045)
+                     /note="HMMER_hit psbE, position 1 - 252, E-Value 3.3e-76,
+                     score 258.1; blatX_hit psbE_Hbrasiliensis_GeSeq-SRS_v6,
+                     position 1 - 252, psl score 99.3, coverage 100.00%, match
+                     99.21%; merged"
+                     /gene="psbE"
      CDS             complement(68794..69045)
                      /gene="psbE"
                      /translation="MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYD
                      VFGSPRPNEYFTESRQGIPLITGRFDPLEQLDEFSKSF"
+     gene            70488..70583
+                     /note="HMMER_hit petL, position 1 - 95, E-Value 1e-24,
+                     score 90.2; blatX_hit petL_Hbrasiliensis_GeSeq-SRS_v6,
+                     position 1 - 96, psl score 96.9, coverage 100.00%, match
+                     96.88%; merged"
+                     /gene="petL"
      CDS             70488..70583
                      /gene="petL"
                      /translation="MPTITSYFVFLLAALTITSVLFIGLSKIRLI"
+     gene            70779..70892
+                     /note="blatX_hit petG_Vvinifera_GeSeq-SRS_v6, position 1 -
+                     114, psl score 96.5, coverage 100.00%, match 96.49%"
+                     /gene="petG"
      CDS             70779..70892
                      /gene="petG"
                      /translation="MIEVLLFGIVLGLIPITLAGLFVTAYLQYRRGDQLDL"
+     misc_feature    70779..70895
+                     /note="HMMER_hit petG, position 1 - 114, E-Value 2.1e-30,
+                     score 108.3"
+                     /gene="petG"
+     tRNA            complement(71019..71092)
+                     /gene="trnW-CCA"
+     gene            complement(71019..71092)
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     71.9"
+                     /gene="trnW-CCA"
+     tRNA            complement(71299..71372)
+                     /gene="trnP-UGG"
+     gene            complement(71299..71372)
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     65.6"
+                     /gene="trnP-UGG"
+     gene            71989..72123
+                     /note="blatX_hit psaJ_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     135, psl score 98.6, coverage 100.00%, match 98.52%"
+                     /gene="psaJ"
      CDS             71989..72123
                      /gene="psaJ"
                      /translation="MRDLKTYLSVAPVISTLWFASLAGLLIEINRFFPDALTFPFFSF"
+     misc_feature    71989..72120
+                     /note="HMMER_hit psaJ, position 1 - 130, E-Value 3.2e-32,
+                     score 113.9"
+                     /gene="psaJ"
+     gene            72592..72792
+                     /note="HMMER_hit rpl33, position 1 - 201, E-Value 2.5e-49,
+                     score 170.3; blatX_hit rpl33_Rcommunis_GeSeq-SRS_v6,
+                     position 1 - 201, psl score 94.6, coverage 100.00%, match
+                     94.53%; merged"
+                     /gene="rpl33"
      CDS             72592..72792
                      /gene="rpl33"
                      /translation="MAKGKDVRIRVILECTRCVRNSVNKKSTGISRYITQKNRHNTPSR
                      LELIKFCPYCYKHTIHGEIKK"
+     gene            73072..73356
+                     /note="blatX_hit rps18_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     285, psl score 98.6, coverage 100.00%, match 98.60%"
+                     /gene="rps18"
      CDS             73072..73356
                      /gene="rps18"
                      /translation="MDKSKRLFLKSKRSFRRRLPPIQAGDRIDYRNMSLISRFISEQGK
                      ILSRRVNRLSLKQQRLITIAIKQARILSSLPFLNNEKQFEKKRVGHYNY"
+     misc_feature    73072..73378
+                     /note="HMMER_hit rps18, position 2 - 299, E-Value 6.2e-77,
+                     score 260.4"
+                     /gene="rps18"
+     misc_feature    complement(73662..74018)
+                     /note="HMMER_hit rpl20, position 1 - 354, E-Value 1.5e-90,
+                     score 305.4"
+                     /gene="rpl20"
+     gene            complement(73665..74018)
+                     /note="blatX_hit rpl20_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     354, psl score 95.5, coverage 100.00%, match 95.48%"
+                     /gene="rpl20"
      CDS             complement(73665..74018)
                      /gene="rpl20"
                      /translation="MTRIRRGYIARRRRTKIRLFAASFRGAHSRLTRTIIQQKIRALGS
                      AHRDRGRQKIHFRRLWVTRINAIIRENKVSCSYSRLINNLYKRQLLLNRKILAQIAILN
                      RNCLYMISNDILK"
+     gene            join(complement(74890..75003),148624..149418)
+                     /note="blatX_hit rps12-fragment_Ptrichocarpa_GeSeq-SRS_v6,
+                     position 1 - 114, psl score 93.9, coverage 30.65%, match
+                     28.76%, fragment match 93.86%; blatX_hit
+                     rps12_Ptrichocarpa_GeSeq-SRS_v6, position 115 - 372, psl
+                     score 91.9, coverage 69.35%, match 69.09%"
+                     /trans_splicing=""
+                     /gene="rps12"
      CDS             join(complement(74890..75003),148624..148854,
                      149392..149418)
                      /trans_splicing=""
@@ -383,12 +876,56 @@ FEATURES             Location/Qualifiers
                      /translation="MPTIKQLIRNTRKPIRNITKSPALGGCPQRRGTCTRVYTITPKKP
                      NSALRKVARVRLTSGFEITAYIPGIGHNSQEHSVVLVRGGRVKDLPGVRYHIVRGTLDA
                      VGVKDRQQGRSQYGVKKPK"
+     exon            complement(74890..75003)
+                     /number=1
+                     /gene="rps12"
+     misc_feature    complement(75183..75448)
+                     /note="HMMER_hit clpP, position 363 - 591, E-Value 4.7e-55,
+                     score 188.4"
+                     /gene="clpP"
+     gene            complement(75200..77286)
+                     /note="blatX_hit clpP_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     588, psl score 90.0, coverage 100.00%, match 96.43%"
+                     /gene="clpP"
      CDS             complement(join(75200..75427,76066..76356,77218..77286))
                      /gene="clpP"
                      /translation="MPIGVPKVPFRNPGEGGSIWIDVNRLYRERLLFLGQEVDSQISNQ
                      LIGLMVYLSIESETKDLYLFINSPGGWVIPGIAIYDTMQFVRPDVQTVCMGFAASMGSF
                      ILVGGKITKRLAFPHARVMIHQPIAGFYQAQIVDFVLEAEELLKLREIVTRIYAQRTGK
                      PLWVVSEDMERDVFMSAVEAQAHGIVDLVAVA"
+     exon            complement(75200..75427)
+                     /number=3
+                     /gene="clpP"
+     intron          complement(75428..76065)
+                     /number=2
+                     /gene="clpP"
+     exon            complement(76066..76356)
+                     /number=2
+                     /gene="clpP"
+     intron          complement(76357..77217)
+                     /number=1
+                     /gene="clpP"
+     exon            complement(77218..77286)
+                     /number=1
+                     /gene="clpP"
+     misc_feature    complement(76043..76381)
+                     /note="HMMER_hit clpP, position 68 - 366, E-Value 4.3e-78,
+                     score 264.4"
+                     /gene="clpP"
+     misc_feature    complement(77195..77286)
+                     /note="HMMER_hit clpP, position 1 - 72, E-Value 8.6e-12,
+                     score 45.8"
+                     /gene="clpP"
+     misc_feature    77781..78323
+                     /note="HMMER_hit psbC, position 55 - 485, E-Value 0.17,
+                     score 10.2"
+                     /gene="psbC"
+     gene            77797..79323
+                     /note="HMMER_hit psbB, position 1 - 1527, E-Value 0, score
+                     1614.0; blatX_hit psbB_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     1527, psl score 97.9, coverage 100.00%, match 97.84%;
+                     merged"
+                     /gene="psbB"
      CDS             77797..79323
                      /gene="psbB"
                      /translation="MGLPWYRVHTVVLNDPGRLLSVHIMHTALVAGWAGSMALYELAVF
@@ -400,16 +937,42 @@ FEATURES             Location/Qualifiers
                      LGHPIFRDKEGRELFVRRMPTFFETFPVVLVDGDGIVRADVPFRRAESKYSVEQVGVTV
                      EFYGGELNGVSYSDPATVKKYARRAQLGEIFELDRATLKSDGVFRSSPRGWFTFGHASF
                      ALLFFFGHIWHGARTLFRDVFAGIDPDLDVQVEFGAFQKIGDPTTRRQVV"
+     gene            79525..79632
+                     /note="HMMER_hit psbT, position 1 - 105, E-Value 1.8e-26,
+                     score 95.6; blatX_hit psbT_Rcommunis_GeSeq-SRS_v6, position
+                     1 - 108, psl score 98.2, coverage 100.00%, match 98.15%;
+                     merged"
+                     /gene="psbT"
      CDS             79525..79632
                      /gene="psbT"
                      /translation="MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKKIK"
+     gene            complement(79693..79824)
+                     /note="HMMER_hit pbf1, position 1 - 132, E-Value 1.5e-37,
+                     score 130.9; blatX_hit pbf1_Rcommunis_GeSeq-SRS_v6,
+                     position 1 - 132, psl score 99.3, coverage 100.00%, match
+                     99.24%; merged"
+                     /gene="pbf1"
      CDS             complement(79693..79824)
                      /gene="pbf1"
                      /translation="METATLVAIFISGLLVSFTGYALYTAFGQPSQQLRDPFEEHGD"
+     gene            79933..80154
+                     /note="HMMER_hit psbH, position 1 - 222, E-Value 6.7e-61,
+                     score 207.8; blatX_hit psbH_Rcommunis_GeSeq-SRS_v6,
+                     position 1 - 222, psl score 96.9, coverage 100.00%, match
+                     96.85%; merged"
+                     /gene="psbH"
      CDS             79933..80154
                      /gene="psbH"
                      /translation="MATQNVEGSSRSGPRRTAVGDLLKPLNSEYGKVAPGWGTTPLMGV
                      AMALFAVFLSIILEIYNSSVLLDGISMN"
+     misc_feature    81054..81700
+                     /note="HMMER_hit petB, position 5 - 647, E-Value 2e-202,
+                     score 675.1"
+                     /gene="petB"
+     gene            81014..81700
+                     /note="blatX_hit petB_Rcommunis_GeSeq-SRS_v6, position 3 -
+                     648, psl score 98.3, coverage 99.69%, match 97.99%"
+                     /gene="petB"
      CDS             81014..81700
                      /gene="petB"
                      /translation="MRFSEGEFLWFTYLNKVYDWFEERLEIQAIADDITSKYVPPHVNI
@@ -417,12 +980,28 @@ FEATURES             Location/Qualifiers
                      MMVLMMILHVFRVYLTGGFKKPRELTWVTGVVLSVLTASFGVTGYSLPWDQIGYWAVKI
                      VTGVPEAIPVIGSPLVELLRGSASVGQSTLTRFYSLHTFVLPLLTAVFMLMHFPMIRKQ
                      GISGPL"
+     misc_feature    82709..83188
+                     /note="HMMER_hit petD, position 8 - 482, E-Value 7.9e-145,
+                     score 484.5"
+                     /gene="petD"
+     gene            82688..83188
+                     /note="blatX_hit petD_Hbrasiliensis_GeSeq-SRS_v6, position
+                     8 - 504, psl score 97.4, coverage 98.61%, match 96.03%"
+                     /gene="petD"
      CDS             82688..83188
                      /gene="petD"
                      /translation="MYKNSPIQITKKPDLNDPVLRAKLAKGMGHNYYGEPAWPNDLLYI
                      FPVVILGTIACNVGLAVLEPSMIGEPADPFATPLEILPEWYFFPVFQILRTVPNKLLGV
                      LLMVSVPAGLLTVPFLENVNKFQNPFRRPVATTVFLIGTAVALWLGIGATLPIDKSLTL
                      GLF"
+     misc_feature    complement(83291..84314)
+                     /note="HMMER_hit rpoA, position 1 - 998, E-Value 2.6e-271,
+                     score 903.6"
+                     /gene="rpoA"
+     gene            complement(83316..84314)
+                     /note="blatX_hit rpoA_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     999, psl score 96.8, coverage 100.00%, match 96.80%"
+                     /gene="rpoA"
      CDS             complement(83316..84314)
                      /gene="rpoA"
                      /translation="MIREKVTISTRTLQWKCVESRTDNKRLFYGRFLLSPLMKGQADTI
@@ -431,44 +1010,116 @@ FEATURES             Location/Qualifiers
                      NFPEGSYPIDAVFMPVQNANHSVHSYGNGNEKQEILFLEIWTNGSLTPKEALHEASRTL
                      IDLFIPFLHAEEENFHLEKNQHKVTLPLFTFYDRLTKLRKNQNEITRKYVFIDQSKLTP
                      KIYNCLKRSNIHTFSDLLNKSQEDLMKIEHFRIDDVKHILGILEIEKHFAI"
+     gene            complement(84387..84803)
+                     /note="HMMER_hit rps11, position 1 - 416, E-Value 5.7e-120,
+                     score 402.3; blatX_hit rps11_Rcommunis_GeSeq-SRS_v6,
+                     position 1 - 417, psl score 97.2, coverage 100.00%, match
+                     97.12%; merged"
+                     /gene="rps11"
      CDS             complement(84387..84803)
                      /gene="rps11"
                      /translation="MAQPLPRIGSRRTGRIDSRKNARKIPKGVIHVQASFNNTIVTVTD
                      VRGRVISWSSAGTCGFRGTKRGTPFAAQTAAGNAIRTVVDQGMQRAEVMIKGPGLGRDA
                      ALRAIRRSGILLSFVRDVTPMPHNGCRPPKKRRV"
+     gene            complement(84934..85047)
+                     /note="HMMER_hit rpl36, position 1 - 113, E-Value 2.3e-28,
+                     score 101.6; blatX_hit rpl36_Rcommunis_GeSeq-SRS_v6,
+                     position 1 - 114, psl score 99.2, coverage 100.00%, match
+                     99.12%; merged"
+                     /gene="rpl36"
      CDS             complement(84934..85047)
                      /gene="rpl36"
                      /translation="MKIRASVRKICEKCRLIRRRGRIIVICFNPRHKQRQG"
+     gene            complement(85569..85973)
+                     /note="HMMER_hit rps8, position 1 - 405, E-Value 6.6e-106,
+                     score 356.7; blatX_hit rps8_Rcommunis_GeSeq-SRS_v6,
+                     position 1 - 405, psl score 95.9, coverage 100.00%, match
+                     95.80%; merged"
+                     /gene="rps8"
      CDS             complement(85569..85973)
                      /gene="rps8"
                      /translation="MGRDPIADIITSIRNADMNRKGTVRIASTNITENIIKLLLREGFI
                      ENVRKHQEGNKKFFVLTLRHRRKRKEPYRTNLNLKRISRPGLRIYSNYQRIPRILGGMG
                      IVILSTSRGIMTGREARLERIGGEILCYIW"
+     gene            complement(86361..86729)
+                     /note="HMMER_hit rpl14, position 1 - 368, E-Value 2.6e-105,
+                     score 354.2; blatX_hit rpl14_Rcommunis_GeSeq-SRS_v6,
+                     position 1 - 369, psl score 96.8, coverage 100.00%, match
+                     96.75%; merged"
+                     /gene="rpl14"
      CDS             complement(86361..86729)
                      /gene="rpl14"
                      /translation="MIQSQTHLNVADNSGAQELMCIRIIGTSNRRYAHIGDVIVAVIKQ
                      AAPNSPLERSEVIRAVIVRTCKELKRDNGMIIRYDDNAAVVIDQEGNPKGTRIFGAIAR
                      ELRQLNFTKIVSLAPEVL"
+     gene            complement(86872..87282)
+                     /note="blatX_hit rpl16_Hbrasiliensis_GeSeq-SRS_v6, position
+                     6 - 408, psl score 96.8, coverage 98.77%, match 95.59%"
+                     /gene="rpl16"
      CDS             complement(86872..87282)
                      /gene="rpl16"
                      /translation="MNYNPKRTRFRKQHRGRMKGIAFRGNRICFGRYALQALEPAWITS
                      RQIEAGRRAMTRNARRGGKIWVRIFPDKPVTLRPTETRMGSGKGSPEYWVAIVKPGRIL
                      YEMGGVSENIARRAISIAASKMPIRTQFIISG"
+     misc_feature    complement(86872..87277)
+                     /note="HMMER_hit rpl16, position 7 - 405, E-Value 1e-116,
+                     score 392.1"
+                     /gene="rpl16"
+     misc_feature    complement(88619..89281)
+                     /note="HMMER_hit rps3, position 1 - 654, E-Value 5e-169,
+                     score 564.5"
+                     /gene="rps3"
+     gene            complement(88625..89281)
+                     /note="blatX_hit rps3_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     657, psl score 95.2, coverage 100.00%, match 95.13%"
+                     /gene="rps3"
      CDS             complement(88625..89281)
                      /gene="rps3"
                      /translation="MGQKINPLGFRLGTTQSHHSLWFSQPKDYSDSLQEDQKIRNCIKN
                      YVKKNTKISSGVEGISRIEIQKRIDVIEVIIYMGFKKLLIESKPKRIEELQINVQKELN
                      CVNRKLNIAITRIANPYGHPNILAEFLAGQLKNRVSFRKAMKKAIELTEQADTKGIQVQ
                      ISGRLDGKEIARVEWIREGRVPLQTIRAKIDYCSYTVRTIYGVLGIKIWTFLDKK"
+     gene            complement(89421..89858)
+                     /note="blatX_hit rpl22_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     470, psl score 90.1, coverage 115.11%, match 89.86%"
+                     /gene="rpl22"
      CDS             complement(89421..89858)
                      /gene="rpl22"
                      /translation="MINKRKKGDPYTKEYALDPYTTVYALGQHISMSTHKARRIIEQIR
                      GRSYEETLMILELMPYRACYPILKLIYSAAANARHNMGFNETDLIISKAEVNEGATVKK
                      LKPQARGRGYLIKRSTCHITIVLKNISLYEESDGYSKYSIL"
+     misc_feature    complement(89454..89825)
+                     /note="HMMER_hit rpl22, position 24 - 367, E-Value 1.7e-92,
+                     score 310.9"
+                     /gene="rpl22"
+     repeat_region   89834..118042
+                     /note="repeat_hit position 164111 - 135903, match 100.%,
+                     length 28209"
+                     /rpt_type=inverted
+     repeat_region   135903..164111
+                     /note="repeat_hit position 118042 - 89834, match 100.%,
+                     length 28209"
+                     /rpt_type=inverted
+     tRNA            90088..90161
+                     /gene="trnH-GUG"
+     gene            90088..90161
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     64.7"
+                     /gene="trnH-GUG"
+     gene            complement(90457..90735)
+                     /note="HMMER_hit rps19, position 1 - 278, E-Value 1.4e-76,
+                     score 259.8; blatX_hit rps19_Rcommunis_GeSeq-SRS_v6,
+                     position 1 - 279, psl score 99.7, coverage 100.00%, match
+                     99.64%; merged"
+                     /gene="rps19"
      CDS             complement(90457..90735)
                      /gene="rps19"
                      /translation="MTRSLKKNPFVANHLLKKINKLNTKAEKEIIVTWSRASTIIPTMI
                      GHTIAIHNGKEHLPIYITDRMVGHKLGEFAPTLNFRGHAKNDNKSRR"
+     gene            complement(90815..92307)
+                     /note="blatX_hit rpl2_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     825, psl score 97.0, coverage 100.00%, match 99.52%"
+                     /gene="rpl2"
      CDS             complement(join(90815..91248,91917..92307))
                      /gene="rpl2"
                      /translation="MAIHLYKTSTPSTRNGAVDSQVKSNTRNNLIYGQHRCGKGRNARG
@@ -476,10 +1127,45 @@ FEATURES             Location/Qualifiers
                      PRGAIIGDTIISGTEVPIKMGNALPLTDMPLGTAIHNIEITLGKGGQLARAAGAVAKLI
                      AKEGKSATLKLPSGEVRLISKNCSATVGQVGNTGVNQKSLGRAGSKCWLGKRPVVRGVV
                      MNPVDHPHGGGEGRAPIGRKKPATPWGYPALGRRSRKRNKYSDNLILRRRSK"
+     exon            complement(90815..91248)
+                     /number=2
+                     /gene="rpl2"
+     misc_feature    complement(90815..91275)
+                     /note="HMMER_hit rpl2, position 386 - 823, E-Value
+                     1.3e-136, score 457.8"
+                     /gene="rpl2"
+     intron          complement(91249..91916)
+                     /number=1
+                     /gene="rpl2"
+     exon            complement(91917..92307)
+                     /number=1
+                     /gene="rpl2"
+     misc_feature    complement(91897..92307)
+                     /note="HMMER_hit rpl2, position 1 - 391, E-Value 2.6e-113,
+                     score 380.9"
+                     /gene="rpl2"
+     misc_feature    complement(92317..92607)
+                     /note="HMMER_hit rpl23, position 1 - 280, E-Value 1.2e-78,
+                     score 266.6"
+                     /gene="rpl23"
+     gene            complement(92326..92607)
+                     /note="blatX_hit rpl23_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     282, psl score 99.7, coverage 100.00%, match 99.65%"
+                     /gene="rpl23"
      CDS             complement(92326..92607)
                      /gene="rpl23"
                      /translation="MDGIKYAVFTDKSIRLLGKNQYTLNVESGSTRTEIKHWVELFFGV
                      KVIAMNSHRLPGKGRRMRPIMGHTMHYRRMIITLQPGYSIPPLRKKRT"
+     tRNA            complement(92773..92846)
+                     /gene="trnM-CAU"
+     gene            complement(92773..92846)
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     70.4"
+                     /gene="trnM-CAU"
+     gene            92935..99801
+                     /note="blatX_hit ycf2_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     6861, psl score 99.2, coverage 100.09%, match 99.26%"
+                     /gene="ycf2"
      CDS             92935..99801
                      /gene="ycf2"
                      /translation="MKGHQFKSWIFELREILREIKNSHYFLDSWTQFNSMGSFIHIFFH
@@ -522,6 +1208,20 @@ FEATURES             Location/Qualifiers
                      FLFKDQPPVSVFSHREFFADEEMSKGLLTSQTDPPTSIYKRWFLKNTQEKHFELLIHRQ
                      RWLRTNSSLSNGFFRSNTLSESYQYLSNLFLSNGTLLDQMTKALLRKRWLFPDEMKIGF
                      M"
+     misc_feature    92935..99807
+                     /note="HMMER_hit ycf2, position 1 - 6801, E-Value 0, score
+                     6359.3"
+                     /gene="ycf2"
+     tRNA            complement(100814..100894)
+                     /gene="trnL-CAA"
+     gene            complement(100814..100894)
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     62.3"
+                     /gene="trnL-CAA"
+     gene            complement(101466..103680)
+                     /note="blatX_hit ndhB_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     1533, psl score 98.4, coverage 100.00%, match 99.67%"
+                     /gene="ndhB"
      CDS             complement(join(101466..102221,102904..103680))
                      /gene="ndhB"
                      /translation="MIWHVQNENFILDSTRIFMKAFHLLLFDGSFIFPECILIFGLILL
@@ -533,11 +1233,127 @@ FEATURES             Location/Qualifiers
                      VGDSNGGYASMITYMLFYISMNLGTFACIVLFGLRTGTDNIRDYAGLYTKDPFLALSLA
                      LCLLSLGGLPPLAGFFGKLHLFWCGWQAGLYFLVLIGLLTSVVSIYYYLKIIKLLMTGR
                      NQEITPHVRNYRRSPLRSNNSIELSMIVCVIASTIPGISMNPIIEIAQDTLF"
+     exon            complement(101466..102221)
+                     /number=2
+                     /gene="ndhB"
+     misc_feature    complement(101466..102241)
+                     /note="HMMER_hit ndhB, position 778 - 1532, E-Value
+                     6.4e-238, score 793.3"
+                     /gene="ndhB"
+     intron          complement(102222..102903)
+                     /number=1
+                     /gene="ndhB"
+     exon            complement(102904..103680)
+                     /number=1
+                     /gene="ndhB"
+     misc_feature    complement(102883..103680)
+                     /note="HMMER_hit ndhB, position 1 - 778, E-Value 5.9e-234,
+                     score 780.2"
+                     /gene="ndhB"
+     gene            complement(104001..104468)
+                     /note="HMMER_hit rps7, position 1 - 467, E-Value 5.4e-150,
+                     score 501.7; blatX_hit rps7_Rcommunis_GeSeq-SRS_v6,
+                     position 1 - 468, psl score 99.4, coverage 100.00%, match
+                     99.36%; merged"
+                     /gene="rps7"
      CDS             complement(104001..104468)
                      /gene="rps7"
                      /translation="MSRRGTAEEKTAKSDPIYRNRLVNMLVNRILKHGKKSLAYQILYR
                      AMKKIQQKTETNPLSVLRQAIRGVTPDIAVKARRVGGSTHQVPVEIGSTQGKALAIRWL
                      LGASRKRPGRNMAFKLSSELVDAAKGSGDAIRKKEETHRMAEANRAFAHFR"
+     exon            complement(104527..104553)
+                     /number=3
+                     /gene="rps12"
+     intron          complement(104554..105090)
+                     /number=1
+                     /gene="rps12"
+     exon            complement(105091..105321)
+                     /number=2
+                     /gene="rps12"
+     tRNA            107249..107320
+                     /gene="trnV-GAC"
+     gene            107249..107320
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     58.9"
+                     /gene="trnV-GAC"
+     gene            107553..109047
+                     /note="HMMER_hit rrn16, position 1 - 1491, E-Value 0, score
+                     1730.2; blatN_hit rrn16_Rcommunis_GeSeq-SRS_v1, position 1
+                     - 1491, psl score 99.5, coverage 100.27%, match 99.87%;
+                     merged"
+                     /gene="rrn16"
+     rRNA            107553..109047
+                     /gene="rrn16"
+     exon            109388..109423
+                     /number=2
+                     /gene="trnI-GAU"
+     intron          109372..109387
+                     /number=1
+                     /gene="trnI-GAU"
+     exon            109336..109371
+                     /number=1
+                     /gene="trnI-GAU"
+     tRNA            109336..109423
+                     /gene="trnI-GAU"
+     gene            109336..109423
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     16.4"
+                     /gene="trnI-GAU"
+     exon            110502..110529
+                     /number=2
+                     /gene="trnA-UGC"
+     intron          110462..110501
+                     /number=1
+                     /gene="trnA-UGC"
+     exon            110425..110461
+                     /number=1
+                     /gene="trnA-UGC"
+     tRNA            110425..110529
+                     /gene="trnA-UGC"
+     gene            110425..110529
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     16.3"
+                     /gene="trnA-UGC"
+     gene            111460..114269
+                     /note="HMMER_hit rrn23, position 1 - 2812, E-Value 0, score
+                     3260.8; blatN_hit rrn23_Rcommunis_GeSeq-SRS_v1, position 1
+                     - 2810, psl score 99.8, coverage 100.00%, match 99.75%;
+                     merged"
+                     /gene="rrn23"
+     rRNA            111460..114269
+                     /gene="rrn23"
+     gene            114368..114470
+                     /note="HMMER_hit rrn4.5, position 2 - 103, E-Value 4.6e-32,
+                     score 113.5; blatN_hit rrn4.5_Vvinifera_GeSeq-SRS_v1,
+                     position 1 - 103, psl score 100.0, coverage 100.00%, match
+                     100.00%; merged"
+                     /gene="rrn4.5"
+     rRNA            114368..114470
+                     /gene="rrn4.5"
+     gene            114695..114815
+                     /note="HMMER_hit rrn5, position 1 - 121, E-Value 2.7e-37,
+                     score 130.1; blatN_hit rrn5_Rcommunis_GeSeq-SRS_v1,
+                     position 1 - 121, psl score 100.0, coverage 100.00%, match
+                     100.00%; merged"
+                     /gene="rrn5"
+     rRNA            114695..114815
+                     /gene="rrn5"
+     tRNA            115057..115130
+                     /gene="trnR-ACG"
+     gene            115057..115130
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     57.7"
+                     /gene="trnR-ACG"
+     tRNA            complement(115721..115792)
+                     /gene="trnN-GUU"
+     gene            complement(115721..115792)
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     68.2"
+                     /gene="trnN-GUU"
+     gene            116128..121821
+                     /note="blatX_hit ycf1_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     5397, psl score 93.5, coverage 105.44%, match 92.45%"
+                     /gene="ycf1"
      CDS             116128..121821
                      /gene="ycf1"
                      /translation="MILKSFILGNLVSLCMKIVNSVVVVGLYYGFLTTFSMGPSYLFLL
@@ -573,10 +1389,26 @@ FEATURES             Location/Qualifiers
                      INKKYRDKIDSISIDSIERHQSLIGNRDKNNYYLLVPENILSPKRRRELRILISFTFKN
                      KNNIPINIEICNGNNIKNCGPFFQKSKDFYRDKNKLIKLKFFLWPNFRLEDLACMNRYW
                      FDTNNASRFSMVRIYIYPRLSFW"
+     misc_feature    116128..121821
+                     /note="HMMER_hit ycf1, position 1 - 5485, E-Value 0, score
+                     3749.8"
+                     /gene="ycf1"
+     gene            122202..122474
+                     /note="HMMER_hit rps15, position 1 - 272, E-Value 7.9e-65,
+                     score 221.7; blatX_hit rps15_Rcommunis_GeSeq-SRS_v6,
+                     position 1 - 273, psl score 96.8, coverage 100.00%, match
+                     96.70%; merged"
+                     /gene="rps15"
      CDS             122202..122474
                      /gene="rps15"
                      /translation="MVKNSFISVISQEEKAENKGSVEFQIASFTNKIRKLTSHLELHRK
                      DYSSQRGLRKILGKRQRLLSYLAKKNRVRYKELISQLDIRESKTR"
+     gene            122589..123764
+                     /note="HMMER_hit ndhH, position 2 - 1182, E-Value 0, score
+                     1182.4; blatX_hit ndhH_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     1176, psl score 97.6, coverage 100.00%, match 97.53%;
+                     merged"
+                     /gene="ndhH"
      CDS             122589..123764
                      /gene="ndhH"
                      /translation="MNVSATRKDLMIVNMGPHHPSMHGVLRLILTLDGEDVVNCEPILG
@@ -586,6 +1418,10 @@ FEATURES             Location/Qualifiers
                      MLRASGVQWDLRQVDHYECYDEFDWEVQWQKEGDSLSRYLVRIGEMLESIKIIQQALEG
                      IPGGPYENLETRRFERDPEWNDFEYRFISKKTSPTFELPKQELYVRVEAPKGELGIFLI
                      GDQSGFPWRWKIRPPGFINLQILPELVKRMKLADIMTILGSIDIIMGEVDR"
+     gene            123766..126035
+                     /note="blatX_hit ndhA_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     1092, psl score 94.9, coverage 100.00%, match 96.89%"
+                     /gene="ndhA"
      CDS             join(123766..124316,125495..126035)
                      /gene="ndhA"
                      /translation="MIIDTTEVHAINSFSRLESLNEVYGIIWVFVPLLTLVLGITIGIL
@@ -595,26 +1431,73 @@ FEATURES             Location/Qualifiers
                      LAECERLPFDLPEAEEELVAGYQTEYSGIKFGLFYISSYLNLLVSSLFVTVLYLGGWNI
                      SIPYIFVPEPFLTNKIGGVLGTTIGIFITLVKTYLFLFIPITTRWTLPRLRMDQLLNLG
                      WKFLLPISLGNLLLTTSFQLLSL"
+     exon            123766..124316
+                     /number=1
+                     /gene="ndhA"
+     misc_feature    123766..124337
+                     /note="HMMER_hit ndhA, position 1 - 553, E-Value 6.9e-152,
+                     score 508.5"
+                     /gene="ndhA"
+     intron          124317..125494
+                     /number=1
+                     /gene="ndhA"
+     exon            125495..126035
+                     /number=2
+                     /gene="ndhA"
+     misc_feature    125459..126035
+                     /note="HMMER_hit ndhA, position 551 - 1091, E-Value
+                     5.6e-150, score 502.2"
+                     /gene="ndhA"
+     gene            126133..126648
+                     /note="blatX_hit ndhI_Hbrasiliensis_GeSeq-SRS_v6, position
+                     1 - 495, psl score 96.2, coverage 99.40%, match 95.58%"
+                     /gene="ndhI"
      CDS             126133..126648
                      /gene="ndhI"
                      /translation="MFPVVTGFMNYGQQTIRAARYIGQSFIITLSHANRLPVTIQYPYE
                      KLITSERFRGRIHFEFDKCIACEVCVRVCPIDLPVVDWKLETAIRKKRLLNYSIDFGIC
                      IFCGNCVEYCPTNCLSMTEEYELSTYDRHELNYNQIALGRLPMSVVDDYTIRTILNSTK
                      KKKIDKPL"
+     misc_feature    126133..126649
+                     /note="HMMER_hit ndhI, position 1 - 497, E-Value 1.2e-144,
+                     score 483.9"
+                     /gene="ndhI"
+     gene            127057..127587
+                     /note="HMMER_hit ndhG, position 1 - 531, E-Value 9.2e-135,
+                     score 451.6; blatX_hit ndhG_Rcommunis_GeSeq-SRS_v6,
+                     position 1 - 534, psl score 96.3, coverage 100.00%, match
+                     96.25%; merged"
+                     /gene="ndhG"
      CDS             127057..127587
                      /gene="ndhG"
                      /translation="MDLPALIHDFLLFFLGLVLILGGLGVVLLTNPIYSAFSLGLVLVC
                      ISLFYILSNSHFVAAAQLLIYVGAINVLIIFAVMFMNGSEYYKEFNLWTVGNGVTSLVC
                      TSIFVSLITIILDTSWYGIIWTTKTNQILEQDLISNGQQIGIHLSTDFFLPFEFISIIL
                      LVALIGAIAVARQ"
+     gene            127792..128097
+                     /note="HMMER_hit ndhE, position 1 - 305, E-Value 1.5e-84,
+                     score 285.8; blatX_hit ndhE_Rcommunis_GeSeq-SRS_v6,
+                     position 1 - 306, psl score 96.5, coverage 100.00%, match
+                     96.41%; merged"
+                     /gene="ndhE"
      CDS             127792..128097
                      /gene="ndhE"
                      /translation="MMLEHVLVLSAYLFSIGIYGLITSRNMVRALMCLELILNAVNINF
                      VTFSDFFDSRQLKGNIFSIFVIAIAAAEAAIGPAIVSSIYRNRKSTRINQSNLLNK"
+     gene            128345..128590
+                     /note="HMMER_hit psaC, position 1 - 245, E-Value 3.5e-72,
+                     score 244.8; blatX_hit psaC_Rcommunis_GeSeq-SRS_v6,
+                     position 1 - 246, psl score 97.6, coverage 100.00%, match
+                     97.56%; merged"
+                     /gene="psaC"
      CDS             128345..128590
                      /gene="psaC"
                      /translation="MSHSVKIYDTCIGCTQCVRACPTDVLEMIPWDGCKSKQIASAPRT
                      EDCVGCKRCESACPTDFLSVRVYLWHETTRSMALAY"
+     gene            128724..130226
+                     /note="blatX_hit ndhD_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     1503, psl score 96.8, coverage 100.00%, match 96.74%"
+                     /gene="ndhD"
      CDS             128724..130226
                      /gene="ndhD"
                      /translation="MNSFPWLTIFVVLPVSAGSLIFFFPHKGNKVIRWYTLFICILEFL
@@ -626,6 +1509,18 @@ FEATURES             Location/Qualifiers
                      IGAALFFLAGTSYDRIRRVYLDEMGGMAALMPKIFTTFSILSLASLALPGMSGFFAELA
                      IFFGIITGQKYLLMSKIVITFGMAVGMILTPIYLLSMLRQMFYGYKLFTAPNSYFFDSG
                      PRELFVSISILLPVIGIGIYPDFLFSLSVDRVEALLSNYFYK"
+     misc_feature    128724..130230
+                     /note="HMMER_hit ndhD, position 1 - 1500, E-Value 0, score
+                     1376.8"
+                     /gene="ndhD"
+     misc_feature    129364..129758
+                     /note="HMMER_hit ndhF, position 717 - 1048, E-Value 0.0015,
+                     score 16.0"
+                     /gene="ndhF"
+     gene            complement(130537..131502)
+                     /note="blatX_hit ccsA_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     974, psl score 96.2, coverage 98.06%, match 94.29%"
+                     /gene="ccsA"
      CDS             complement(130537..131502)
                      /gene="ccsA"
                      /translation="MIFATLEHILTHISFSVMSLVITIHLITLVVDEFVELYDSSEKGM
@@ -634,10 +1529,32 @@ FEATURES             Location/Qualifiers
                      TFRKFIRIVDKSNNLLNASFSFSKIQYMTERKNVLRNISFLSSRNYYRFQLIQQLDDWS
                      YRIISIGFIFLTIGILSGAVWANEAWGSYWNWDPKETWAFITWTIFAIYFHTRTNKKFE
                      GFNSAIVASMGFLIIWICYFGVNLLGIGLHSYGSFTLTSN"
+     misc_feature    complement(130543..131502)
+                     /note="HMMER_hit ccsA, position 1 - 957, E-Value 5.6e-241,
+                     score 803.0"
+                     /gene="ccsA"
+     tRNA            complement(131603..131682)
+                     /gene="trnL-UAG"
+     gene            complement(131603..131682)
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     56.1"
+                     /gene="trnL-UAG"
+     misc_feature    complement(132595..132771)
+                     /note="HMMER_hit rpl32, position 1 - 159, E-Value 5e-36,
+                     score 126.0"
+                     /gene="rpl32"
+     gene            complement(132598..132771)
+                     /note="blatX_hit rpl32_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     174, psl score 95.5, coverage 100.00%, match 95.40%"
+                     /gene="rpl32"
      CDS             complement(132598..132771)
                      /gene="rpl32"
                      /translation="MAVPKKRTSRTKKRIRKNIWKKKGYWAVLKAFSLAKSLSTGNSKS
                      FFVQEIKNQTLE"
+     gene            133621..135876
+                     /note="blatX_hit ndhF_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     2248, psl score 94.7, coverage 100.18%, match 94.27%"
+                     /gene="ndhF"
      CDS             133621..135876
                      /gene="ndhF"
                      /translation="MEHIYQYSWVIPFVTFPVPILIGAGLLLFPAATKRLRRMWAFPSL
@@ -653,11 +1570,131 @@ FEATURES             Location/Qualifiers
                      GMEMDILSKLLTPSLNLLHQNPRNSLDWYEFATNSIFSVSIAFFGIFIASSFYKPAYSS
                      LQNLNFWNSLAKKGPKRIRWDKIINVIYNWSYNRGYIDAFYEIFFIGGIRKLAELIYFF
                      DKRIIDGITNGVSVISFFVGEGIKYVGRGRISSYLLFFLFFTLIFLLIFSFFSFYSL"
+     misc_feature    133621..135873
+                     /note="HMMER_hit ndhF, position 1 - 2226, E-Value 0, score
+                     1890.5"
+                     /gene="ndhF"
+     misc_feature    134317..134654
+                     /note="HMMER_hit ndhD, position 670 - 966, E-Value 5.2e-05,
+                     score 21.7"
+                     /gene="ndhD"
+     misc_feature    134318..134637
+                     /note="HMMER_hit ndhB, position 727 - 1012, E-Value 0.001,
+                     score 17.6"
+                     /gene="ndhB"
+     misc_feature    complement(135900..137817)
+                     /note="HMMER_hit ycf1, position 1 - 1810, E-Value 0, score
+                     1450.1"
+                     /gene="ycf1"
+     gene            complement(135902..137817)
+                     /note="blatX_hit ycf1-fragment_Rcommunis_GeSeq-SRS_v6,
+                     position 1 - 1925, psl score 96.2, coverage 35.36%, match
+                     33.81%, fragment match 95.17%"
+                     /gene="ycf1-fragment"
+     tRNA            138153..138224
+                     /gene="trnN-GUU"
+     gene            138153..138224
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     68.2"
+                     /gene="trnN-GUU"
+     tRNA            complement(138815..138888)
+                     /gene="trnR-ACG"
+     gene            complement(138815..138888)
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     57.7"
+                     /gene="trnR-ACG"
+     gene            complement(139130..139250)
+                     /note="HMMER_hit rrn5, position 1 - 121, E-Value 2.7e-37,
+                     score 130.1; blatN_hit rrn5_Rcommunis_GeSeq-SRS_v1,
+                     position 1 - 121, psl score 100.0, coverage 100.00%, match
+                     100.00%; merged"
+                     /gene="rrn5"
+     rRNA            complement(139130..139250)
+                     /gene="rrn5"
+     gene            complement(139475..139577)
+                     /note="HMMER_hit rrn4.5, position 2 - 103, E-Value 4.6e-32,
+                     score 113.5; blatN_hit rrn4.5_Vvinifera_GeSeq-SRS_v1,
+                     position 1 - 103, psl score 100.0, coverage 100.00%, match
+                     100.00%; merged"
+                     /gene="rrn4.5"
+     rRNA            complement(139475..139577)
+                     /gene="rrn4.5"
+     gene            complement(139676..142485)
+                     /note="HMMER_hit rrn23, position 1 - 2812, E-Value 0, score
+                     3260.8; blatN_hit rrn23_Rcommunis_GeSeq-SRS_v1, position 1
+                     - 2810, psl score 99.8, coverage 100.00%, match 99.75%;
+                     merged"
+                     /gene="rrn23"
+     rRNA            complement(139676..142485)
+                     /gene="rrn23"
+     tRNA            complement(143416..143520)
+                     /gene="trnA-UGC"
+     gene            complement(143416..143520)
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     16.3"
+                     /gene="trnA-UGC"
+     exon            complement(143416..143443)
+                     /number=2
+                     /gene="trnA-UGC"
+     intron          complement(143444..143483)
+                     /number=1
+                     /gene="trnA-UGC"
+     exon            complement(143484..143520)
+                     /number=1
+                     /gene="trnA-UGC"
+     tRNA            complement(144522..144609)
+                     /gene="trnI-GAU"
+     gene            complement(144522..144609)
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     16.4"
+                     /gene="trnI-GAU"
+     exon            complement(144522..144557)
+                     /number=2
+                     /gene="trnI-GAU"
+     intron          complement(144558..144573)
+                     /number=1
+                     /gene="trnI-GAU"
+     exon            complement(144574..144609)
+                     /number=1
+                     /gene="trnI-GAU"
+     gene            complement(144898..146392)
+                     /note="HMMER_hit rrn16, position 1 - 1491, E-Value 0, score
+                     1730.2; blatN_hit rrn16_Rcommunis_GeSeq-SRS_v1, position 1
+                     - 1491, psl score 99.5, coverage 100.27%, match 99.87%;
+                     merged"
+                     /gene="rrn16"
+     rRNA            complement(144898..146392)
+                     /gene="rrn16"
+     tRNA            complement(146625..146696)
+                     /gene="trnV-GAC"
+     gene            complement(146625..146696)
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     58.9"
+                     /gene="trnV-GAC"
+     exon            148624..148854
+                     /number=2
+                     /gene="rps12"
+     intron          148855..149391
+                     /number=1
+                     /gene="rps12"
+     exon            149392..149418
+                     /number=3
+                     /gene="rps12"
+     gene            149477..149944
+                     /note="HMMER_hit rps7, position 1 - 467, E-Value 5.4e-150,
+                     score 501.7; blatX_hit rps7_Rcommunis_GeSeq-SRS_v6,
+                     position 1 - 468, psl score 99.4, coverage 100.00%, match
+                     99.36%; merged"
+                     /gene="rps7"
      CDS             149477..149944
                      /gene="rps7"
                      /translation="MSRRGTAEEKTAKSDPIYRNRLVNMLVNRILKHGKKSLAYQILYR
                      AMKKIQQKTETNPLSVLRQAIRGVTPDIAVKARRVGGSTHQVPVEIGSTQGKALAIRWL
                      LGASRKRPGRNMAFKLSSELVDAAKGSGDAIRKKEETHRMAEANRAFAHFR"
+     gene            150265..152479
+                     /note="blatX_hit ndhB_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     1533, psl score 98.4, coverage 100.00%, match 99.67%"
+                     /gene="ndhB"
      CDS             join(150265..151041,151724..152479)
                      /gene="ndhB"
                      /translation="MIWHVQNENFILDSTRIFMKAFHLLLFDGSFIFPECILIFGLILL
@@ -669,6 +1706,37 @@ FEATURES             Location/Qualifiers
                      VGDSNGGYASMITYMLFYISMNLGTFACIVLFGLRTGTDNIRDYAGLYTKDPFLALSLA
                      LCLLSLGGLPPLAGFFGKLHLFWCGWQAGLYFLVLIGLLTSVVSIYYYLKIIKLLMTGR
                      NQEITPHVRNYRRSPLRSNNSIELSMIVCVIASTIPGISMNPIIEIAQDTLF"
+     exon            150265..151041
+                     /number=1
+                     /gene="ndhB"
+     misc_feature    150265..151062
+                     /note="HMMER_hit ndhB, position 1 - 778, E-Value 5.9e-234,
+                     score 780.2"
+                     /gene="ndhB"
+     intron          151042..151723
+                     /number=1
+                     /gene="ndhB"
+     exon            151724..152479
+                     /number=2
+                     /gene="ndhB"
+     misc_feature    151704..152479
+                     /note="HMMER_hit ndhB, position 778 - 1532, E-Value
+                     6.4e-238, score 793.3"
+                     /gene="ndhB"
+     tRNA            153051..153131
+                     /gene="trnL-CAA"
+     gene            153051..153131
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     62.3"
+                     /gene="trnL-CAA"
+     misc_feature    complement(154138..161010)
+                     /note="HMMER_hit ycf2, position 1 - 6801, E-Value 0, score
+                     6359.3"
+                     /gene="ycf2"
+     gene            complement(154144..161010)
+                     /note="blatX_hit ycf2_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     6861, psl score 99.2, coverage 100.09%, match 99.26%"
+                     /gene="ycf2"
      CDS             complement(154144..161010)
                      /gene="ycf2"
                      /translation="MKGHQFKSWIFELREILREIKNSHYFLDSWTQFNSMGSFIHIFFH
@@ -711,10 +1779,28 @@ FEATURES             Location/Qualifiers
                      FLFKDQPPVSVFSHREFFADEEMSKGLLTSQTDPPTSIYKRWFLKNTQEKHFELLIHRQ
                      RWLRTNSSLSNGFFRSNTLSESYQYLSNLFLSNGTLLDQMTKALLRKRWLFPDEMKIGF
                      M"
+     tRNA            161099..161172
+                     /gene="trnM-CAU"
+     gene            161099..161172
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     70.4"
+                     /gene="trnM-CAU"
+     gene            161338..161619
+                     /note="blatX_hit rpl23_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     282, psl score 99.7, coverage 100.00%, match 99.65%"
+                     /gene="rpl23"
      CDS             161338..161619
                      /gene="rpl23"
                      /translation="MDGIKYAVFTDKSIRLLGKNQYTLNVESGSTRTEIKHWVELFFGV
                      KVIAMNSHRLPGKGRRMRPIMGHTMHYRRMIITLQPGYSIPPLRKKRT"
+     misc_feature    161338..161628
+                     /note="HMMER_hit rpl23, position 1 - 280, E-Value 1.2e-78,
+                     score 266.6"
+                     /gene="rpl23"
+     gene            161638..163130
+                     /note="blatX_hit rpl2_Rcommunis_GeSeq-SRS_v6, position 1 -
+                     825, psl score 97.0, coverage 100.00%, match 99.52%"
+                     /gene="rpl2"
      CDS             join(161638..162028,162697..163130)
                      /gene="rpl2"
                      /translation="MAIHLYKTSTPSTRNGAVDSQVKSNTRNNLIYGQHRCGKGRNARG
@@ -722,10 +1808,39 @@ FEATURES             Location/Qualifiers
                      PRGAIIGDTIISGTEVPIKMGNALPLTDMPLGTAIHNIEITLGKGGQLARAAGAVAKLI
                      AKEGKSATLKLPSGEVRLISKNCSATVGQVGNTGVNQKSLGRAGSKCWLGKRPVVRGVV
                      MNPVDHPHGGGEGRAPIGRKKPATPWGYPALGRRSRKRNKYSDNLILRRRSK"
+     exon            161638..162028
+                     /number=1
+                     /gene="rpl2"
+     misc_feature    161638..162048
+                     /note="HMMER_hit rpl2, position 1 - 391, E-Value 2.6e-113,
+                     score 380.9"
+                     /gene="rpl2"
+     intron          162029..162696
+                     /number=1
+                     /gene="rpl2"
+     exon            162697..163130
+                     /number=2
+                     /gene="rpl2"
+     misc_feature    162670..163130
+                     /note="HMMER_hit rpl2, position 386 - 823, E-Value
+                     1.3e-136, score 457.8"
+                     /gene="rpl2"
+     gene            163210..163488
+                     /note="HMMER_hit rps19, position 1 - 278, E-Value 1.4e-76,
+                     score 259.8; blatX_hit rps19_Rcommunis_GeSeq-SRS_v6,
+                     position 1 - 279, psl score 99.7, coverage 100.00%, match
+                     99.64%; merged"
+                     /gene="rps19"
      CDS             163210..163488
                      /gene="rps19"
                      /translation="MTRSLKKNPFVANHLLKKINKLNTKAEKEIIVTWSRASTIIPTMI
                      GHTIAIHNGKEHLPIYITDRMVGHKLGEFAPTLNFRGHAKNDNKSRR"
+     tRNA            complement(163784..163857)
+                     /gene="trnH-GUG"
+     gene            complement(163784..163857)
+                     /note="annotated by tRNAscan-SE v2.0.3, infernal score:
+                     64.7"
+                     /gene="trnH-GUG"
 ORIGIN
         1 caatagccaa tttcttgttc tatcaagaaa gttggtattt ctcctttttt ttcttttttt
        61 attttcaagt ttaattgaac tcgcgtatac gaagaccgaa gtcttatcca tttatagatg
