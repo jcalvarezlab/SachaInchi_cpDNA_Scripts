@@ -119,7 +119,7 @@ def save_cod_table(path, matrix, codon_idx, rscu, percent, trnas, genetic_code):
     cod2aa = cod2amin(genetic_code, by_name = check_gc_by_name(genetic_code), rna = True)
     
     with open(path, "w") as file:
-        file.write("\t".join(["Codon","Aminoacid","Count","RSCU","%","tRNA"])+ "\n")
+        file.write("\t".join(["Codon","aa","Count","RSCU","%","tRNA"])+ "\n")
         for cod, aa in sorted(cod2aa.items(), key=lambda item: item[1]):
             pre_line = []
             pre_line.append(cod)
