@@ -60,7 +60,9 @@ FEATURES             Location/Qualifiers
                      GTCAACAAGGGCGTTCTCAATATGGGGTCAAAAAGCCAAAATAA"
                      /translation="MPTIKQLIRNTRKPIRNITKSPALGGCPQRRGTCTRVYTITPKKP
                      NSALRKVARVRLTSGFEITAYIPGIGHNSQEHSVVLVRGGRVKDLPGVRYHIVRGTLDA
-                     VGVKDRQQGRSQYGVKKPK*"
+                     VGVKDRQQGRSQYGVKKPK"
+                     /product="rps12"
+                     /transl_table=11
      gene            complement(104..1165)
                      /note="blatX_hit psbA_Rcommunis_GeSeq-SRS_v6, position 1 -
                      1062, psl score 98.2, coverage 100.00%, match 98.12%"
@@ -73,7 +75,9 @@ FEATURES             Location/Qualifiers
                      GQGSFSDGMPLGISGTFNFMIVFQAEHNILMHPFHMLGVAGVFGGSLFSAMHGSLVTSS
                      LIRETTENESANEGYRFGQEEETYNIVAAHGYFGRLIFQYASFNNSRSLHFFLAAWPVV
                      GIWFTALGISTMAFNLNGFNFNQSVVDSQGRVINTWADIINRANLGMEVMHERNAHNFP
-                     LDLAVGEAPSING*"
+                     LDLAVGEAPSING"
+                     /product="psbA"
+                     /transl_table=11
      gene            complement(1811..3328)
                      /note="blatX_hit matK_Rcommunis_GeSeq-SRS_v6, position 1 -
                      1521, psl score 95.5, coverage 99.80%, match 94.94%"
@@ -88,7 +92,9 @@ FEATURES             Location/Qualifiers
                      ASKDRPLLMKKWKDYFVNLCQCHFYVWFQPEKIHINSLSKHSLNLLGYLSNVQFNSSLV
                      RSQMLENSFIIDKDNTMKKLDTIVPIIPLIGSLAKTKFCNAVGHPISKPTRADSADSDI
                      IDRFVRIYRNLSHYYSGSSKKKNLYRIKYILRLSCVKTLARKHKSTVRTFLKRLGLELL
-                     EEFFTETEEEQILSLIFPMVSSSLRRLYRGRVWYLDIISINDLANHQ*"
+                     EEFFTETEEEQILSLIFPMVSSSLRRLYRGRVWYLDIISINDLANHQ"
+                     /product="matK"
+                     /transl_table=11
      gene            complement(4805..5974)
                      /note="blatX_hit rps16_Hbrasiliensis_GeSeq-SRS_v6, position
                      1 - 267, psl score 88.1, coverage 100.00%, match 95.88%"
@@ -96,7 +102,9 @@ FEATURES             Location/Qualifiers
      CDS             complement(join(4805..5030,5934..5974))
                      /gene="rps16"
                      /translation="MVKLRLKRCGRKQRAVYRIVAIDVRSRRAGRDLRKVGFYDPLKNQ
-                     TYLNVPAILYFFEKGAQPTGTVHDILNKAGVFTELRLNQRQFT*"
+                     TYLNVPAILYFFEKGAQPTGTVHDILNKAGVFTELRLNQRQFT"
+                     /product="rps16"
+                     /transl_table=11
      exon            complement(4805..5030)
                      /number=2
                      /gene="rps16"
@@ -118,14 +126,18 @@ FEATURES             Location/Qualifiers
      CDS             7589..7774
                      /gene="psbK"
                      /translation="MLNIFSLICICLNSDLYSSNFFFTKLPEAYAFLNPIVDVMPVIPV
-                     LFFLLAFVWQAAVSFR*"
+                     LFFLLAFVWQAAVSFR"
+                     /product="psbK"
+                     /transl_table=11
      gene            8179..8289
                      /note="blatX_hit psbI_Rcommunis_GeSeq-SRS_v6, position 1 -
                      111, psl score 99.1, coverage 100.00%, match 99.10%"
                      /gene="psbI"
      CDS             8179..8289
                      /gene="psbI"
-                     /translation="MLTLKLFVYTVVIFFVSLFIFGFLSNDPGRNPGREE*"
+                     /translation="MLTLKLFVYTVVIFFVSLFIFGFLSNDPGRNPGREE"
+                     /product="psbI"
+                     /transl_table=11
      gene            complement(8467..8553)
                      /note="annotated by ARAGORN v1.2.38, score: 123.1"
                      /gene="trnS-GGA"
@@ -140,7 +152,9 @@ FEATURES             Location/Qualifiers
                      /translation="MPRSRITGNFIDKTFSIVANILLRIIPTTSGEKEAFTYYRDGMSA
                      QSEGNYAEALQNYYEAMRLEIDPYDRSYILYNIGLIHTSNGEHTKALEYYFRALERNPF
                      LPQALNNMAVICHYRGEQAIRQGDSEIAEAWFDQAAEYWKQAIALTPGNYIEAQNWLKI
-                     TRRFE*"
+                     TRRFE"
+                     /product="ycf3"
+                     /transl_table=11
      exon            8964..9089
                      /number=1
                      /gene="ycf3"
@@ -174,7 +188,9 @@ FEATURES             Location/Qualifiers
                      KVSLLPIPLGTADFMVHHIHAFTIHVTVLILLKGVLFARSSRLIPDKANLGFRFPCDGP
                      GRGGTCQVSAWDHVFLGLFWMYNSISVVIFHFSWKMQSDVWGSISDQGVVTHITGGNFA
                      QSSITINGWLRDFLWAQASQVIQSYGSSLSAYGLFFLGAHFVWAFSLMFLFSGRGYWQE
-                     LIESIVWAHNKLKVAPATQPRALSIIQGRAVGVTHYLLGGIATTWAFFLARIIAVG*"
+                     LIESIVWAHNKLKVAPATQPRALSIIQGRAVGVTHYLLGGIATTWAFFLARIIAVG"
+                     /product="psaA"
+                     /transl_table=11
      gene            13981..16185
                      /note="blatX_hit psaB_Rcommunis_GeSeq-SRS_v6, position 1 -
                      2205, psl score 99.0, coverage 100.00%, match 98.91%"
@@ -193,7 +209,9 @@ FEATURES             Location/Qualifiers
                      LVHHAIALGLHTTTLILVKGALDARGSKLMPDKKDFGYSFPCDGPGRGGTCDISAWDAF
                      YLAVFWMLNTIGWVTFYWHWKHITLWQGNVSQFNESSTYLMGWLRDYLWLNSSQLINGY
                      NPFGMNSLSVWAWMFLFGHLVWATGFMFLISWRGYWQELIETLAWAHERTPLANLIRWR
-                     DKPVALSIVQARLVGLAHFSVGYIFTYAAFLIASTSGKFG*"
+                     DKPVALSIVQARLVGLAHFSVGYIFTYAAFLIASTSGKFG"
+                     /product="psaB"
+                     /transl_table=11
      gene            16302..16604
                      /note="blatX_hit rps14_Rcommunis_GeSeq-SRS_v6, position 1 -
                      303, psl score 98.1, coverage 100.00%, match 98.02%"
@@ -201,7 +219,9 @@ FEATURES             Location/Qualifiers
      CDS             16302..16604
                      /gene="rps14"
                      /translation="MARKSLIQREKKRQKLEQKYHLIRRSSKKEISKVLSLSDKWEIHG
-                     KLQSPPRNSAPTRLHRRCFSTGRPRANYRDFGLSGHILREMVHACLLPGSTRSSW*"
+                     KLQSPPRNSAPTRLHRRCFSTGRPRANYRDFGLSGHILREMVHACLLPGSTRSSW"
+                     /product="rps14"
+                     /transl_table=11
      gene            16780..16854
                      /note="annotated by ARAGORN v1.2.38, score: 119.4"
                      /gene="trnM-CAU"
@@ -219,7 +239,9 @@ FEATURES             Location/Qualifiers
      CDS             complement(17946..18134)
                      /gene="psbZ"
                      /translation="MTIAFQLAVFALIVTSSILLISVPVVFSSPDGWSSNKNVVFSGTS
-                     LWIGLVFLVGILNSLIS*"
+                     LWIGLVFLVGILNSLIS"
+                     /product="psbZ"
+                     /transl_table=11
      gene            18502..18591
                      /note="annotated by ARAGORN v1.2.38, score: 127.0"
                      /gene="trnS-UGA"
@@ -231,7 +253,7 @@ FEATURES             Location/Qualifiers
                      /gene="psbC"
      CDS             complement(18851..20236)
                      /gene="psbC"
-                     /translation="VETLFNGTLSLAGRDQETTGFAWWAGNARLINLSGKLLGAHVAHA
+                     /translation="METLFNGTLSLAGRDQETTGFAWWAGNARLINLSGKLLGAHVAHA
                      GLIVFWAGAMNLFEVAHFVPEKPMYEQGLILLPHLATLGWGVGPGGEVIDTFPYFVSGV
                      LHLISSAVLGFGGIYHALLGPETLEESFPFFGYVWKDRNKMTTILGIHLILLGIGAFLL
                      VFKALYFGGVYDTWAPGGGDVRKITNLTLSPSVIFGYLLKSPFGGEGWIVSVDDLEDII
@@ -239,7 +261,9 @@ FEATURES             Location/Qualifiers
                      NTAYPSEFYGPTGPEASQAQAFTFLVRDQRLGANVGSAQGPTGLGKYLMRSPTGEVIFG
                      GETMRFWDLRAPWLEPLRGPNGLDLSRLKKDIQPWQERRSAEYMTHAPLGSLNSVGGVA
                      TEINAVNYVSPRSWLATSHFVLGFFLFVGHLWHAGRARAAAAGFEKGIDRDFEPVLSMT
-                     PLN*"
+                     PLN"
+                     /product="psbC"
+                     /transl_table=11
      gene            complement(20220..21281)
                      /note="blatX_hit psbD_Rcommunis_GeSeq-SRS_v6, position 1 -
                      1062, psl score 99.3, coverage 100.00%, match 99.25%"
@@ -252,7 +276,9 @@ FEATURES             Location/Qualifiers
                      GQSGWFFAPSFGVAAIFRFILFFQGFHNWTLNPFHMMGVAGVLGAALLCAIHGATVENT
                      LFEDGDGANTFRAFNPTQAEETYSMVTANRFWSQIFGVAFSNKRWLHFFMLFVPVTGLW
                      MSALGVVGLALNLRAYDFVSQEIRAAEDPEFETFYTKNILLNEGIRAWMAAQDQPHENL
-                     IFPEEVLPRGNAL*"
+                     IFPEEVLPRGNAL"
+                     /product="psbD"
+                     /transl_table=11
      gene            complement(23062..23135)
                      /note="annotated by ARAGORN v1.2.38, score: 114.4"
                      /gene="trnT-GGU"
@@ -279,14 +305,18 @@ FEATURES             Location/Qualifiers
                      /gene="psbM"
      CDS             25484..25588
                      /gene="psbM"
-                     /translation="MEVNILAFIATALFILVPTAFLLIIYVKTVSQSD*"
+                     /translation="MEVNILAFIATALFILVPTAFLLIIYVKTVSQSD"
+                     /product="psbM"
+                     /transl_table=11
      gene            complement(26859..26948)
                      /note="blatX_hit petN_Rcommunis_GeSeq-SRS_v6, position 1 -
                      90, psl score 97.8, coverage 100.00%, match 97.78%"
                      /gene="petN"
      CDS             complement(26859..26948)
                      /gene="petN"
-                     /translation="MDIVSLAWVALMVVFTFSLSLVVWGRSGL*"
+                     /translation="MDIVSLAWVALMVVFTFSLSLVVWGRSGL"
+                     /product="petN"
+                     /transl_table=11
      gene            complement(27279..27349)
                      /note="annotated by ARAGORN v1.2.38, score: 114.7"
                      /gene="trnC-GCA"
@@ -316,13 +346,16 @@ FEATURES             Location/Qualifiers
                      GLAGGLLDRHYRIAPFDERYEQEASRKLVFSELYEASKQTANPWVFEPEYPGKSRIFDG
                      RTGDPFEQPVIIGKPYLLKLIHQVDDKIHGRSSGHYALVTQQPLRGRAKQGGQRVGEME
                      VWALEGFGVSHILQEMLTYKSDHIRARQEVLGTTIIGGTIPKPEDAPESFRLLVRELRS
-                     LALELNHFLVSEKNFQINRKEA*"
+                     LALELNHFLVSEKNFQINRKEA"
+                     /product="rpoB"
+                     /transl_table=11
      gene            join(31821..32252,33059..34675)
                      /note="blatX_hit rpoC1_Rcommunis_GeSeq-SRS_v6, position 1 -
                      2041, psl score 96.8, coverage 99.90%, match 97.70%"
                      /gene="rpoC1"
      CDS             join(31821..32252,33059..34675)
                      /gene="rpoC1"
+                     /product="rpoC1"
                      /translation="MIDRYKHQQLRIGLVSPQQISAWANKILPNGEIVGEVTKPYTFHY
                      KTNKPEKDGLFCERIFGPIKSGICACGNYRVIRNEKEKPKFCEQCGVEFVDSRVRRYQM
                      GYIKLACPVTHVWYLKRLPSYIANLLDKPLKELEGLVYCDFSFARPIAKKPTFLRLRGS
@@ -334,7 +367,8 @@ FEATURES             Location/Qualifiers
                      HRLGIQAFQPILVEGRAICLHPLVCKGFNADFDGDQMAVHVPLSLEAQAEARLLMFSHM
                      NLLSPAIGDPISVPTQDMLIGLYVLTSGNRQGICANRYNPCNHRNFQNERIDNNNDQYT
                      KESFFSNSYDAIGAYRQKRINLDSSLWLRWQLDQRAIASREAPVEVHYESLGTYHEIYE
-                     HLLIVRNIKKEILCIYIRTTVGHIYLYREIEEAIQGFCQAGSNGIES*"
+                     HLLIVRNIKKEILCIYIRTTVGHIYLYREIEEAIQGFCQAGSNGIES"
+                     /transl_table=11
      exon            31821..32252
                      /number=1
                      /gene="rpoC1"
@@ -373,7 +407,9 @@ FEATURES             Location/Qualifiers
                      SINLEKRVEGWNECIPRILGIPWGFLIGAELTMVQSRISLVNKIQKVYRSQGVHIHNRH
                      IEIIVRQITSKVLVSEDGMSNVFSPGELIGLLRAERTGRALEEAICYRAILLGITRASL
                      NTQSFISEASFQETARVLAKAALRGRIDWLKGLKENVVLGGMIPVGTGFKGLVQGSRQH
-                     KNIPLKTKKNNLFEGESKGRDILSHHRELFDSCISKNVYDTSEQSFIGFNDS*"
+                     KNIPLKTKKNNLFEGESKGRDILSHHRELFDSCISKNVYDTSEQSFIGFNDS"
+                     /product="rpoC2"
+                     /transl_table=11
      gene            39316..40026
                      /note="blatX_hit rps2_Rcommunis_GeSeq-SRS_v6, position 1 -
                      711, psl score 98.1, coverage 100.00%, match 98.03%"
@@ -384,18 +420,22 @@ FEATURES             Location/Qualifiers
                      NLTRTARFLSEACDLVFDAASRRKQFLIVGTPKKAANSVARAAIRARCHYVNKKWLGGI
                      LTNWSTTETRLQKFRDLRMEQKTGRLNRLPKGDAAQLKRQLAHLQTYLGGIKYMTGLPD
                      IVIIVDQQEDYMALRECTTLGIPTICLIDTNCDPDLADISIPANDDAIASIRLILNKLV
-                     FSICEGRSSYIRNP*"
+                     FSICEGRSSYIRNP"
+                     /product="rps2"
+                     /transl_table=11
      gene            40371..41057
                      /note="blatX_hit atpI_Rcommunis_GeSeq-SRS_v6, position 1 -
                      687, psl score 98.7, coverage 100.00%, match 98.69%"
                      /gene="atpI"
      CDS             40371..41057
                      /gene="atpI"
-                     /translation="VEVGQHFYWKIGGFQVHAQVLITSWVVIAILLGSAVVAVRNPQTI
+                     /translation="MEVGQHFYWKIGGFQVHAQVLITSWVVIAILLGSAVVAVRNPQTI
                      PTGGQNFFEYVLEFIRDVSKTQIGEEYGPWVPFIGTMFLFIFVSNWAGALLPWKIIELP
                      HGELAAPTNDINTTVALALLTSIAYFYAGLSKKGLGYFGKYIQPTPILLPINILEDFTK
                      PLSLSFRLFGNILADELVVVVLVSLVPLVVPIPVMFLGLFTSGIQALIFATLAAAYIGE
-                     SMEGHH*"
+                     SMEGHH"
+                     /product="atpI"
+                     /transl_table=11
      gene            42305..42550
                      /note="blatX_hit atpH_Rcommunis_GeSeq-SRS_v6, position 1 -
                      246, psl score 98.4, coverage 100.00%, match 98.37%"
@@ -403,17 +443,21 @@ FEATURES             Location/Qualifiers
      CDS             42305..42550
                      /gene="atpH"
                      /translation="MNPLISAASVIAAGLAVGLASIGPGVGQGTAAGQAVEGIARQPEA
-                     EGKIRGTLLLSLAFMEALTIYGLVVALALLFANPFV*"
+                     EGKIRGTLLLSLAFMEALTIYGLVVALALLFANPFV"
+                     /product="atpH"
+                     /transl_table=11
      gene            join(43237..43380,44099..44509)
                      /note="blatX_hit atpF_Rcommunis_GeSeq-SRS_v6, position 1 -
                      555, psl score 93.6, coverage 99.82%, match 97.66%"
                      /gene="atpF"
      CDS             join(43237..43380,44099..44509)
                      /gene="atpF"
+                     /product="atpF"
                      /translation="MKNVTDSFVSLGHWPSAESFGFNTDILATNPINLSVVLGVLIFFG
                      KGVLTDLLDNRKQKILDTIRNSEELREGAIEQLEKARARLRKVEIEADQFRMNGYSEIE
                      REKLNLINSTYKTLEQLENYKNETIHFEQQRTINQVRQRVFQQALQGALGILNSCLTNE
-                     LHLRTINANLGMFGTIKEITY*"
+                     LHLRTINANLGMFGTIKEITY"
+                     /transl_table=11
      exon            43237..43380
                      /number=1
                      /gene="atpF"
@@ -437,7 +481,9 @@ FEATURES             Location/Qualifiers
                      PGREAYPGDVFYLHSRLLERAAKSSSRLGEGSMTALPIVETQSGDVSAYIPTNVISITD
                      GQIFLSADLFNAGIRPAINVGISVSRVGSAAQIKAMKQVAGKLKLELAQFAELEAFAQF
                      ASDLDKATQNQLARGQRLRELLKQSQSAPLTVEEQIMTIYTGTNGYLDSLEIGQVRKFL
-                     VELRTYLKTNEPQFQEIISSTKTFTDEAETLLKEAIQEQKERFLLQEQV*"
+                     VELRTYLKTNEPQFQEIISSTKTFTDEAETLLKEAIQEQKERFLLQEQV"
+                     /product="atpA"
+                     /transl_table=11
      gene            complement(46193..46264)
                      /note="annotated by ARAGORN v1.2.38, score: 117.5"
                      /gene="trnR-UCU"
@@ -457,7 +503,9 @@ FEATURES             Location/Qualifiers
                      /translation="MSRYRGPRFKKIRRLGALPGLTSKRPRAGSDLRTQSRSGKKSQYR
                      IRLEEKQKLRFHYGLTERQLLKYVRIAAKAKGSTGQVLLQLLEMRLDNILFRLGMASTI
                      PRARQLVNHRHILVNGRIVDIPSYRCKPRDIITARDKQKSRAMIQNYLESSPHQEELPK
-                     HLTLHPFQHKGLVNQIIDNKWIGLKINELLVVEYYSRQT*"
+                     HLTLHPFQHKGLVNQIIDNKWIGLKINELLVVEYYSRQT"
+                     /product="rps4"
+                     /transl_table=11
      gene            complement(50124..50198)
                      /note="annotated by ARAGORN v1.2.38, score: 124.0"
                      /gene="trnT-UGU"
@@ -490,18 +538,22 @@ FEATURES             Location/Qualifiers
                      /gene="ndhJ"
                      /translation="MQGRLSTWLVKRGLVHRSLGFDYQGIETLQIKPVDWHSIAVILYV
                      YGYNYLRLQCAYDVAPGGLLASVYRLTRIEYGIDQPEEVCIKVFAPRKNPRIPSVFWVW
-                     KSADFQERESYDMLGIFYDNHPRLKRILMPESWIGWPLRKDYIAPNFYEIQDAH*"
+                     KSADFQERESYDMLGIFYDNHPRLKRILMPESWIGWPLRKDYIAPNFYEIQDAH"
+                     /product="ndhJ"
+                     /transl_table=11
      gene            complement(53114..53791)
                      /note="blatX_hit ndhK_Rcommunis_GeSeq-SRS_v6, position 1 -
                      680, psl score 97.2, coverage 99.41%, match 95.89%"
                      /gene="ndhK"
      CDS             complement(53114..53791)
                      /gene="ndhK"
+                     /product="ndhK"
                      /translation="MNYIEFPLLDRTTQISVISTTSNDLSNWSRLSSLWPLLYGTSCCF
                      IEFASLIGSRFDFDRYGLVPRSSPRQADLILTAGTVTMKMAPSLVRLYEQMPEPKYVIA
                      MGACTITGGMFSTDSYSTVRGVDKLIPVDVYLPGCPPKPEAVIDAIIKLRKKLSREIYE
                      DRIRSQPGNRCFTTNHKFNIEPATHTGNYDQGLLYQPPSTSTSKIPSETFFKYNKRPPE
-                     LVN*"
+                     LVN"
+                     /transl_table=11
      gene            complement(53839..54201)
                      /note="blatX_hit ndhC_Rcommunis_GeSeq-SRS_v6, position 1 -
                      363, psl score 97.8, coverage 100.00%, match 97.80%"
@@ -510,7 +562,9 @@ FEATURES             Location/Qualifiers
                      /gene="ndhC"
                      /translation="MFLIYEYDIFWAFLLISSVIPILAFLISGVLSPISKGPEKLSSYE
                      SGIEPMGDAWLQFRIRYYMFALVFVVFDVETVFLYPWAMSFDVLGLSVFIEAFIFVLIL
-                     IVGSVYAWRKGALEWS*"
+                     IVGSVYAWRKGALEWS"
+                     /product="ndhC"
+                     /transl_table=11
      gene            complement(54574..55234)
                      /note="annotated by ARAGORN v1.2.38, score: 106.2"
                      /gene="trnC-ACA"
@@ -538,7 +592,9 @@ FEATURES             Location/Qualifiers
                      /gene="atpE"
                      /translation="MTLNLCVLTPNRIVWDSEVKEIILSTNSGQIGVLPNHAPIATAVD
                      IGILRICLNDQWLTMALMGGFARIGNNEITVLVNDAENGSDIDPQEAQQTLEIAEANLR
-                     KAEGRRQKIEANLALRRARARVEAINVIS*"
+                     KAEGRRQKIEANLALRRARARVEAINVIS"
+                     /product="atpE"
+                     /transl_table=11
      gene            complement(56136..57632)
                      /note="blatX_hit atpB_Rcommunis_GeSeq-SRS_v6, position 1 -
                      1497, psl score 97.6, coverage 100.00%, match 97.60%"
@@ -553,7 +609,9 @@ FEATURES             Location/Qualifiers
                      GSEVSALLGRMPSAVGYQPTLSTEMGSLQERITSTKEGSITSIQAVYVPADDLTDPAPA
                      TTFAHLDATTVLSRGLAAKGIYPAVDPLDSTSTMLQPQIVGEEHYETAQRVKQTLQRYK
                      ELQDIIAILGLDELSEEDRLTVARARKIERFLSQPFFVAEVFTGSPGKYVGLAETIRGF
-                     KLILSGELDSLPEQAFYLVGNIDEATAKATNLEMENNLKK*"
+                     KLILSGELDSLPEQAFYLVGNIDEATAKATNLEMENNLKK"
+                     /product="atpB"
+                     /transl_table=11
      gene            58452..59879
                      /note="blatX_hit rbcL_Rcommunis_GeSeq-SRS_v6, position 1 -
                      1428, psl score 98.4, coverage 100.00%, match 98.39%"
@@ -568,7 +626,9 @@ FEATURES             Location/Qualifiers
                      HYCRDNGLLLHIHRAMHAVIDRQKNHGMHFRVLAKALRMSGGDHIHAGTVVGKLEGERD
                      ITLGFVDLLRDDYIEKDRSRGIYFTQDWVSLPGVIPVASGGIHVWHMPALTEIFGDDSV
                      LQFGGGTLGHPWGNAPGAVANRVALEACVQARNEGRDLAREGNEIIREASKWSPELAAA
-                     CEVWKEIKFEFPAMDTL*"
+                     CEVWKEIKFEFPAMDTL"
+                     /product="rbcL"
+                     /transl_table=11
      gene            60652..62145
                      /note="blatX_hit accD_Rcommunis_GeSeq-SRS_v6, position 1 -
                      1500, psl score 96.8, coverage 99.60%, match 96.33%"
@@ -583,14 +643,18 @@ FEATURES             Location/Qualifiers
                      DMVSLDPIEFHSEEEPYKDRIDSYQRKTGLTEAVQTGTGQLNGIPVAIGVMDFQFMGGS
                      MGSVVGEKITRLIEYATNKFLPLILVCASGGARMQEGSLSLMQMAKISSALYDYQSNKK
                      FFFVSILTSPTTGGVTASFGMLGDIIIAEPNAYIAFAGKRVIEQTLNKTVPEGSQSAEF
-                     LFHKGLFDSIVPRNPLKGVLNELLQLHNFFPLNHKSSRV*"
+                     LFHKGLFDSIVPRNPLKGVLNELLQLHNFFPLNHKSSRV"
+                     /product="accD"
+                     /transl_table=11
      gene            63146..63259
                      /note="blatX_hit psaI_Ptrichocarpa_GeSeq-SRS_v6, position 1
                      - 114, psl score 97.4, coverage 100.00%, match 97.37%"
                      /gene="psaI"
      CDS             63146..63259
                      /gene="psaI"
-                     /translation="MTILNNLPSIFVPLVGLVFPAIAMASLSLHVQKNKIF*"
+                     /translation="MTILNNLPSIFVPLVGLVFPAIAMASLSLHVQKNKIF"
+                     /product="psaI"
+                     /transl_table=11
      gene            63738..64292
                      /note="blatX_hit ycf4_Hbrasiliensis_GeSeq-SRS_v6, position
                      1 - 555, psl score 96.6, coverage 100.00%, match 96.58%"
@@ -600,7 +664,9 @@ FEATURES             Location/Qualifiers
                      /translation="MSWRSERIWIELIAGSRKTSNFCWAFILFLGSLGFLLVGISSYLG
                      RNLISLFPSQQISFFPQGIVMSFYGIAGLFISSYLWCTILWNVGSGYDRFDRKEGIACI
                      FRWGFPGKNRRILLRFLMKDIQSIRLEVKEGIYARRVLYMEIRGRGPVPLTCTDEKLTP
-                     REIEQKVAELAYFLRVPIEVF*"
+                     REIEQKVAELAYFLRVPIEVF"
+                     /product="ycf4"
+                     /transl_table=11
      gene            65120..65806
                      /note="blatX_hit cemA_Rcommunis_GeSeq-SRS_v6, position 1 -
                      687, psl score 96.4, coverage 100.00%, match 96.36%"
@@ -611,7 +677,9 @@ FEATURES             Location/Qualifiers
                      FLNDIQEKSILEKFIELEELVRLDEMIKEYPETHLQKFPIGIHKETIQLIKMHNEDHIH
                      TILHFSTNIICFVILSGYSILSNEELIILNSWVQEFLYNLSDTIKAFSILLLTDLCIGF
                      HSPHGWELMIGSVYKDFGFAHNDQIISGLVSTFPVILDTIFKYWIFRYLNRVSPSLVVI
-                     YHSMND*"
+                     YHSMND"
+                     /product="cemA"
+                     /transl_table=11
      gene            66135..67097
                      /note="blatX_hit petA_Rcommunis_GeSeq-SRS_v6, position 1 -
                      963, psl score 98.1, coverage 100.00%, match 98.03%"
@@ -623,28 +691,36 @@ FEATURES             Location/Qualifiers
                      NVGAVLILPEGFELAPPNRISPEMKEKMGNLSFQSYRPTKKNILVIGPVPGQKYSEITF
                      PILSPDPATKKDVHFLKYPIYVGGNRGRGQIYPDGSKSNNTVYNATAAGIVSKIIRKEK
                      GGYEITITDASEGRQVIDIIPPGPELLVSEGESIKLDQPLTSNPNVGGFGQGDSEIVLQ
-                     DPLRVQGLLFFLASVILAQIFLVLKKKQFEKVQLSEMNF*"
+                     DPLRVQGLLFFLASVILAQIFLVLKKKQFEKVQLSEMNF"
+                     /product="petA"
+                     /transl_table=11
      gene            complement(68249..68371)
                      /note="blatX_hit psbJ_Rcommunis_GeSeq-SRS_v6, position 1 -
                      123, psl score 96.8, coverage 100.00%, match 96.75%"
                      /gene="psbJ"
      CDS             complement(68249..68371)
                      /gene="psbJ"
-                     /translation="MADTTGRIPLWIIGTVTGILVFGLIGIFFYGSYSGLGSSL*"
+                     /translation="MADTTGRIPLWIIGTVTGILVFGLIGIFFYGSYSGLGSSL"
+                     /product="psbJ"
+                     /transl_table=11
      gene            complement(68513..68629)
                      /note="blatX_hit psbL_Rcommunis_GeSeq-SRS_v6, position 1 -
                      117, psl score 100.0, coverage 100.00%, match 100.00%"
                      /gene="psbL"
      CDS             complement(68513..68629)
                      /gene="psbL"
-                     /translation="MTQSNPNEQNVELNRTSLYWGLLLIFVLAVLFSNYFFN*"
+                     /translation="MTQSNPNEQNVELNRTSLYWGLLLIFVLAVLFSNYFFN"
+                     /product="psbL"
+                     /transl_table=11
      gene            complement(68666..68785)
                      /note="blatX_hit psbF_Hbrasiliensis_GeSeq-SRS_v6, position
                      1 - 120, psl score 97.5, coverage 100.00%, match 97.50%"
                      /gene="psbF"
      CDS             complement(68666..68785)
                      /gene="psbF"
-                     /translation="MTIDRTYPIFTVRWLAVHGLAVPTVSFLGSISAMQFIQR*"
+                     /translation="MTIDRTYPIFTVRWLAVHGLAVPTVSFLGSISAMQFIQR"
+                     /product="psbF"
+                     /transl_table=11
      gene            complement(68794..69045)
                      /note="blatX_hit psbE_Hbrasiliensis_GeSeq-SRS_v6, position
                      1 - 252, psl score 99.3, coverage 100.00%, match 99.21%"
@@ -652,21 +728,27 @@ FEATURES             Location/Qualifiers
      CDS             complement(68794..69045)
                      /gene="psbE"
                      /translation="MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYD
-                     VFGSPRPNEYFTESRQGIPLITGRFDPLEQLDEFSKSF*"
+                     VFGSPRPNEYFTESRQGIPLITGRFDPLEQLDEFSKSF"
+                     /product="psbE"
+                     /transl_table=11
      gene            70488..70583
                      /note="blatX_hit petL_Hbrasiliensis_GeSeq-SRS_v6, position
                      1 - 96, psl score 96.9, coverage 100.00%, match 96.88%"
                      /gene="petL"
      CDS             70488..70583
                      /gene="petL"
-                     /translation="MPTITSYFVFLLAALTITSVLFIGLSKIRLI*"
+                     /translation="MPTITSYFVFLLAALTITSVLFIGLSKIRLI"
+                     /product="petL"
+                     /transl_table=11
      gene            70779..70892
                      /note="blatX_hit petG_Vvinifera_GeSeq-SRS_v6, position 1 -
                      114, psl score 96.5, coverage 100.00%, match 96.49%"
                      /gene="petG"
      CDS             70779..70892
                      /gene="petG"
-                     /translation="MIEVLLFGIVLGLIPITLAGLFVTAYLQYRRGDQLDL*"
+                     /translation="MIEVLLFGIVLGLIPITLAGLFVTAYLQYRRGDQLDL"
+                     /product="petG"
+                     /transl_table=11
      gene            complement(71019..71092)
                      /note="annotated by ARAGORN v1.2.38, score: 118.2"
                      /gene="trnW-CCA"
@@ -683,8 +765,9 @@ FEATURES             Location/Qualifiers
                      /gene="psaJ"
      CDS             71989..72123
                      /gene="psaJ"
-                     /translation="MRDLKTYLSVAPVISTLWFASLAGLLIEINRFFPDALTFPFFSF*
-                     "
+                     /translation="MRDLKTYLSVAPVISTLWFASLAGLLIEINRFFPDALTFPFFSF"
+                     /product="psaJ"
+                     /transl_table=11
      gene            72592..72792
                      /note="blatX_hit rpl33_Rcommunis_GeSeq-SRS_v6, position 1 -
                      201, psl score 94.6, coverage 100.00%, match 94.53%"
@@ -692,7 +775,9 @@ FEATURES             Location/Qualifiers
      CDS             72592..72792
                      /gene="rpl33"
                      /translation="MAKGKDVRIRVILECTRCVRNSVNKKSTGISRYITQKNRHNTPSR
-                     LELIKFCPYCYKHTIHGEIKK*"
+                     LELIKFCPYCYKHTIHGEIKK"
+                     /product="rpl33"
+                     /transl_table=11
      gene            73072..73356
                      /note="blatX_hit rps18_Rcommunis_GeSeq-SRS_v6, position 1 -
                      285, psl score 98.6, coverage 100.00%, match 98.60%"
@@ -700,7 +785,9 @@ FEATURES             Location/Qualifiers
      CDS             73072..73356
                      /gene="rps18"
                      /translation="MDKSKRLFLKSKRSFRRRLPPIQAGDRIDYRNMSLISRFISEQGK
-                     ILSRRVNRLSLKQQRLITIAIKQARILSSLPFLNNEKQFEKKRVGHYNY*"
+                     ILSRRVNRLSLKQQRLITIAIKQARILSSLPFLNNEKQFEKKRVGHYNY"
+                     /product="rps18"
+                     /transl_table=11
      gene            complement(73665..74018)
                      /note="blatX_hit rpl20_Rcommunis_GeSeq-SRS_v6, position 1 -
                      354, psl score 95.5, coverage 100.00%, match 95.48%"
@@ -709,7 +796,9 @@ FEATURES             Location/Qualifiers
                      /gene="rpl20"
                      /translation="MTRIRRGYIARRRRTKIRLFAASFRGAHSRLTRTIIQQKIRALGS
                      AHRDRGRQKIHFRRLWVTRINAIIRENKVSCSYSRLINNLYKRQLLLNRKILAQIAILN
-                     RNCLYMISNDILK*"
+                     RNCLYMISNDILK"
+                     /product="rpl20"
+                     /transl_table=11
      gene            join(complement(74890..75003),148624..149418)
                      /note="blatX_hit rps12-fragment_Ptrichocarpa_GeSeq-SRS_v6,
                      position 1 - 114, psl score 93.9, coverage 30.65%, match
@@ -731,7 +820,9 @@ FEATURES             Location/Qualifiers
                      GTCAACAAGGGCGTTCTCAATATGGGGTCAAAAAGCCAAAATAA"
                      /translation="MPTIKQLIRNTRKPIRNITKSPALGGCPQRRGTCTRVYTITPKKP
                      NSALRKVARVRLTSGFEITAYIPGIGHNSQEHSVVLVRGGRVKDLPGVRYHIVRGTLDA
-                     VGVKDRQQGRSQYGVKKPK*"
+                     VGVKDRQQGRSQYGVKKPK"
+                     /product="rps12"
+                     /transl_table=11
      exon            complement(74890..75003)
                      /number=1
                      /gene="rps12"
@@ -744,7 +835,9 @@ FEATURES             Location/Qualifiers
                      /translation="MPIGVPKVPFRNPGEGGSIWIDVNRLYRERLLFLGQEVDSQISNQ
                      LIGLMVYLSIESETKDLYLFINSPGGWVIPGIAIYDTMQFVRPDVQTVCMGFAASMGSF
                      ILVGGKITKRLAFPHARVMIHQPIAGFYQAQIVDFVLEAEELLKLREIVTRIYAQRTGK
-                     PLWVVSEDMERDVFMSAVEAQAHGIVDLVAVA*"
+                     PLWVVSEDMERDVFMSAVEAQAHGIVDLVAVA"
+                     /product="clpP"
+                     /transl_table=11
      exon            complement(75200..75427)
                      /number=3
                      /gene="clpP"
@@ -774,21 +867,27 @@ FEATURES             Location/Qualifiers
                      QEIYRRVSAGLAENQSLSEAWSKIPEKLAFYDYIGNNPAKGGLFRAGSMDNGDGIAVGW
                      LGHPIFRDKEGRELFVRRMPTFFETFPVVLVDGDGIVRADVPFRRAESKYSVEQVGVTV
                      EFYGGELNGVSYSDPATVKKYARRAQLGEIFELDRATLKSDGVFRSSPRGWFTFGHASF
-                     ALLFFFGHIWHGARTLFRDVFAGIDPDLDVQVEFGAFQKIGDPTTRRQVV*"
+                     ALLFFFGHIWHGARTLFRDVFAGIDPDLDVQVEFGAFQKIGDPTTRRQVV"
+                     /product="psbB"
+                     /transl_table=11
      gene            79525..79632
                      /note="blatX_hit psbT_Rcommunis_GeSeq-SRS_v6, position 1 -
                      108, psl score 98.2, coverage 100.00%, match 98.15%"
                      /gene="psbT"
      CDS             79525..79632
                      /gene="psbT"
-                     /translation="MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKKIK*"
+                     /translation="MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKKIK"
+                     /product="psbT"
+                     /transl_table=11
      gene            complement(79693..79824)
                      /note="blatX_hit pbf1_Rcommunis_GeSeq-SRS_v6, position 1 -
                      132, psl score 99.3, coverage 100.00%, match 99.24%"
                      /gene="psbN"
      CDS             complement(79693..79824)
                      /gene="psbN"
-                     /translation="METATLVAIFISGLLVSFTGYALYTAFGQPSQQLRDPFEEHGD*"
+                     /translation="METATLVAIFISGLLVSFTGYALYTAFGQPSQQLRDPFEEHGD"
+                     /product="psbN"
+                     /transl_table=11
      gene            79933..80154
                      /note="blatX_hit psbH_Rcommunis_GeSeq-SRS_v6, position 1 -
                      222, psl score 96.9, coverage 100.00%, match 96.85%"
@@ -796,28 +895,34 @@ FEATURES             Location/Qualifiers
      CDS             79933..80154
                      /gene="psbH"
                      /translation="MATQNVEGSSRSGPRRTAVGDLLKPLNSEYGKVAPGWGTTPLMGV
-                     AMALFAVFLSIILEIYNSSVLLDGISMN*"
+                     AMALFAVFLSIILEIYNSSVLLDGISMN"
+                     /product="psbH"
+                     /transl_table=11
      gene            81014..81700
                      /note="blatX_hit petB_Rcommunis_GeSeq-SRS_v6, position 3 -
                      648, psl score 98.3, coverage 99.69%, match 97.99%"
                      /gene="petB"
      CDS             81014..81700
                      /gene="petB"
-                     /translation="IRFSEGEFLWFTYLNKVYDWFEERLEIQAIADDITSKYVPPHVNI
+                     /product="petB"
+                     /translation="MRFSEGEFLWFTYLNKVYDWFEERLEIQAIADDITSKYVPPHVNI
                      FYCLGGITLTCFLVQVATGFAMTFYYRPTVTEAFASVQYIMTEANFGWLIRSVHRWSAS
                      MMVLMMILHVFRVYLTGGFKKPRELTWVTGVVLSVLTASFGVTGYSLPWDQIGYWAVKI
                      VTGVPEAIPVIGSPLVELLRGSASVGQSTLTRFYSLHTFVLPLLTAVFMLMHFPMIRKQ
-                     GISGPL*"
+                     GISGPL"
+                     /transl_table=11
      gene            82688..83188
                      /note="blatX_hit petD_Hbrasiliensis_GeSeq-SRS_v6, position
                      8 - 504, psl score 97.4, coverage 98.61%, match 96.03%"
                      /gene="petD"
      CDS             82688..83188
                      /gene="petD"
-                     /translation="IYKNSPIQITKKPDLNDPVLRAKLAKGMGHNYYGEPAWPNDLLYI
+                     /product="petD"
+                     /translation="MYKNSPIQITKKPDLNDPVLRAKLAKGMGHNYYGEPAWPNDLLYI
                      FPVVILGTIACNVGLAVLEPSMIGEPADPFATPLEILPEWYFFPVFQILRTVPNKLLGV
                      LLMVSVPAGLLTVPFLENVNKFQNPFRRPVATTVFLIGTAVALWLGIGATLPIDKSLTL
-                     GLF*"
+                     GLF"
+                     /transl_table=11
      gene            complement(83316..84314)
                      /note="blatX_hit rpoA_Rcommunis_GeSeq-SRS_v6, position 1 -
                      999, psl score 96.8, coverage 100.00%, match 96.80%"
@@ -829,7 +934,9 @@ FEATURES             Location/Qualifiers
                      DASICVKGPGYVTAQDIILPPFVEIIDNTQHIASLTEPIDLCIGLQIERNRGYLIKPTN
                      NFPEGSYPIDAVFMPVQNANHSVHSYGNGNEKQEILFLEIWTNGSLTPKEALHEASRTL
                      IDLFIPFLHAEEENFHLEKNQHKVTLPLFTFYDRLTKLRKNQNEITRKYVFIDQSKLTP
-                     KIYNCLKRSNIHTFSDLLNKSQEDLMKIEHFRIDDVKHILGILEIEKHFAI*"
+                     KIYNCLKRSNIHTFSDLLNKSQEDLMKIEHFRIDDVKHILGILEIEKHFAI"
+                     /product="rpoA"
+                     /transl_table=11
      gene            complement(84387..84803)
                      /note="blatX_hit rps11_Rcommunis_GeSeq-SRS_v6, position 1 -
                      417, psl score 97.2, coverage 100.00%, match 97.12%"
@@ -838,14 +945,18 @@ FEATURES             Location/Qualifiers
                      /gene="rps11"
                      /translation="MAQPLPRIGSRRTGRIDSRKNARKIPKGVIHVQASFNNTIVTVTD
                      VRGRVISWSSAGTCGFRGTKRGTPFAAQTAAGNAIRTVVDQGMQRAEVMIKGPGLGRDA
-                     ALRAIRRSGILLSFVRDVTPMPHNGCRPPKKRRV*"
+                     ALRAIRRSGILLSFVRDVTPMPHNGCRPPKKRRV"
+                     /product="rps11"
+                     /transl_table=11
      gene            complement(84934..85047)
                      /note="blatX_hit rpl36_Rcommunis_GeSeq-SRS_v6, position 1 -
                      114, psl score 99.2, coverage 100.00%, match 99.12%"
                      /gene="rpl36"
      CDS             complement(84934..85047)
                      /gene="rpl36"
-                     /translation="MKIRASVRKICEKCRLIRRRGRIIVICFNPRHKQRQG*"
+                     /translation="MKIRASVRKICEKCRLIRRRGRIIVICFNPRHKQRQG"
+                     /product="rpl36"
+                     /transl_table=11
      gene            complement(85569..85973)
                      /note="blatX_hit rps8_Rcommunis_GeSeq-SRS_v6, position 1 -
                      405, psl score 95.9, coverage 100.00%, match 95.80%"
@@ -854,7 +965,9 @@ FEATURES             Location/Qualifiers
                      /gene="rps8"
                      /translation="MGRDPIADIITSIRNADMNRKGTVRIASTNITENIIKLLLREGFI
                      ENVRKHQEGNKKFFVLTLRHRRKRKEPYRTNLNLKRISRPGLRIYSNYQRIPRILGGMG
-                     IVILSTSRGIMTGREARLERIGGEILCYIW*"
+                     IVILSTSRGIMTGREARLERIGGEILCYIW"
+                     /product="rps8"
+                     /transl_table=11
      gene            complement(86361..86729)
                      /note="blatX_hit rpl14_Rcommunis_GeSeq-SRS_v6, position 1 -
                      369, psl score 96.8, coverage 100.00%, match 96.75%"
@@ -863,16 +976,20 @@ FEATURES             Location/Qualifiers
                      /gene="rpl14"
                      /translation="MIQSQTHLNVADNSGAQELMCIRIIGTSNRRYAHIGDVIVAVIKQ
                      AAPNSPLERSEVIRAVIVRTCKELKRDNGMIIRYDDNAAVVIDQEGNPKGTRIFGAIAR
-                     ELRQLNFTKIVSLAPEVL*"
+                     ELRQLNFTKIVSLAPEVL"
+                     /product="rpl14"
+                     /transl_table=11
      gene            complement(86872..87282)
                      /note="blatX_hit rpl16_Hbrasiliensis_GeSeq-SRS_v6, position
                      6 - 408, psl score 96.8, coverage 98.77%, match 95.59%"
                      /gene="rpl16"
      CDS             complement(86872..87282)
                      /gene="rpl16"
-                     /translation="INYNPKRTRFRKQHRGRMKGIAFRGNRICFGRYALQALEPAWITS
+                     /product="rpl16"
+                     /translation="MNYNPKRTRFRKQHRGRMKGIAFRGNRICFGRYALQALEPAWITS
                      RQIEAGRRAMTRNARRGGKIWVRIFPDKPVTLRPTETRMGSGKGSPEYWVAIVKPGRIL
-                     YEMGGVSENIARRAISIAASKMPIRTQFIISG*"
+                     YEMGGVSENIARRAISIAASKMPIRTQFIISG"
+                     /transl_table=11
      gene            complement(88625..89281)
                      /note="blatX_hit rps3_Rcommunis_GeSeq-SRS_v6, position 1 -
                      657, psl score 95.2, coverage 100.00%, match 95.13%"
@@ -882,18 +999,20 @@ FEATURES             Location/Qualifiers
                      /translation="MGQKINPLGFRLGTTQSHHSLWFSQPKDYSDSLQEDQKIRNCIKN
                      YVKKNTKISSGVEGISRIEIQKRIDVIEVIIYMGFKKLLIESKPKRIEELQINVQKELN
                      CVNRKLNIAITRIANPYGHPNILAEFLAGQLKNRVSFRKAMKKAIELTEQADTKGIQVQ
-                     ISGRLDGKEIARVEWIREGRVPLQTIRAKIDYCSYTVRTIYGVLGIKIWTFLDKK*"
-     gene            complement(102901..103680)
+                     ISGRLDGKEIARVEWIREGRVPLQTIRAKIDYCSYTVRTIYGVLGIKIWTFLDKK"
+                     /product="rps3"
+                     /transl_table=11
+     gene            complement(89421..89858)
                      /note="blatX_hit rpl22_Rcommunis_GeSeq-SRS_v6, position 1 -
                      470, psl score 90.1, coverage 115.11%, match 89.86%"
                      /gene="rpl22"
-     CDS             complement(102901..103680)
+     CDS             complement(89421..89858)
                      /gene="rpl22"
-                     /translation="MIWHVQNENFILDSTRIFMKAFHLLLFDGSFIFPECILIFGLILL
-                     LMIDSTSDQKDIPWLYFISSTSLVMSITALLFRWGEEPMISFSGNFQTNNFNEIFQFLI
-                     LLCSTLCIPLSVEYIECTEMAITEFLLFVLTATLGGMFLCGANNLITIFVAPECFSLCS
-                     YLLSGYTKKDVRSNEATMKYLLMGGASSSILVHAFSWLYGSSGGEIELQEIVNGLINTQ
-                     MYNSPGISIALIFITVGIGFKLSPAPSHQWTPDVYEGV"
+                     /product="rpl22"
+                     /translation="MINKRKKGDPYTKEYALDPYTTVYALGQHISMSTHKARRIIEQIR
+                     GRSYEETLMILELMPYRACYPILKLIYSAAANARHNMGFNETDLIISKAEVNEGATVKK
+                     LKPQARGRGYLIKRSTCHITIVLKNISLYEESDGYSKYSIL"
+                     /transl_table=11
      repeat_region   89834..118042
                      /note="repeat_hit position 164111 - 135903, match 100.%,
                      length 28209"
@@ -913,8 +1032,10 @@ FEATURES             Location/Qualifiers
                      /gene="rps19"
      CDS             complement(90457..90735)
                      /gene="rps19"
-                     /translation="VTRSLKKNPFVANHLLKKINKLNTKAEKEIIVTWSRASTIIPTMI
-                     GHTIAIHNGKEHLPIYITDRMVGHKLGEFAPTLNFRGHAKNDNKSRR*"
+                     /translation="MTRSLKKNPFVANHLLKKINKLNTKAEKEIIVTWSRASTIIPTMI
+                     GHTIAIHNGKEHLPIYITDRMVGHKLGEFAPTLNFRGHAKNDNKSRR"
+                     /product="rps19"
+                     /transl_table=11
      gene            complement(90815..92307)
                      /note="blatX_hit rpl2_Rcommunis_GeSeq-SRS_v6, position 1 -
                      825, psl score 97.0, coverage 100.00%, match 99.52%"
@@ -925,7 +1046,9 @@ FEATURES             Location/Qualifiers
                      IITARHRGGGHKRLYRKIDFRRNEKDIYGRIVTIEYDPNRNAYICLIHYGDGEKRYILH
                      PRGAIIGDTIISGTEVPIKMGNALPLTDMPLGTAIHNIEITLGKGGQLARAAGAVAKLI
                      AKEGKSATLKLPSGEVRLISKNCSATVGQVGNTGVNQKSLGRAGSKCWLGKRPVVRGVV
-                     MNPVDHPHGGGEGRAPIGRKKPATPWGYPALGRRSRKRNKYSDNLILRRRSK*"
+                     MNPVDHPHGGGEGRAPIGRKKPATPWGYPALGRRSRKRNKYSDNLILRRRSK"
+                     /product="rpl2"
+                     /transl_table=11
      exon            complement(90815..91248)
                      /number=2
                      /gene="rpl2"
@@ -942,7 +1065,9 @@ FEATURES             Location/Qualifiers
      CDS             complement(92326..92607)
                      /gene="rpl23"
                      /translation="MDGIKYAVFTDKSIRLLGKNQYTLNVESGSTRTEIKHWVELFFGV
-                     KVIAMNSHRLPGKGRRMRPIMGHTMHYRRMIITLQPGYSIPPLRKKRT*"
+                     KVIAMNSHRLPGKGRRMRPIMGHTMHYRRMIITLQPGYSIPPLRKKRT"
+                     /product="rpl23"
+                     /transl_table=11
      gene            complement(92772..92846)
                      /note="annotated by ARAGORN v1.2.38, score: 108.8"
                      /gene="trnM-CAU"
@@ -993,7 +1118,9 @@ FEATURES             Location/Qualifiers
                      ARSFRGKRIIYNEEDELQENDSEFLQSGAMQYQIRDRSSKEQGFFRISQFIWDPADPLF
                      FLFKDQPPVSVFSHREFFADEEMSKGLLTSQTDPPTSIYKRWFLKNTQEKHFELLIHRQ
                      RWLRTNSSLSNGFFRSNTLSESYQYLSNLFLSNGTLLDQMTKALLRKRWLFPDEMKIGF
-                     M*"
+                     M"
+                     /product="ycf2"
+                     /transl_table=11
      gene            complement(100813..100895)
                      /note="annotated by ARAGORN v1.2.38, score: 118.8"
                      /gene="trnL-CAA"
@@ -1013,7 +1140,9 @@ FEATURES             Location/Qualifiers
                      RIFDIPFYFSSNEWHLLLEILAILSMIVGNLIAITQTSMKRMLAYSSIGQIGYVIIGII
                      VGDSNGGYASMITYMLFYISMNLGTFACIVLFGLRTGTDNIRDYAGLYTKDPFLALSLA
                      LCLLSLGGLPPLAGFFGKLHLFWCGWQAGLYFLVLIGLLTSVVSIYYYLKIIKLLMTGR
-                     NQEITPHVRNYRRSPLRSNNSIELSMIVCVIASTIPGISMNPIIEIAQDTLF*"
+                     NQEITPHVRNYRRSPLRSNNSIELSMIVCVIASTIPGISMNPIIEIAQDTLF"
+                     /product="ndhB"
+                     /transl_table=11
      exon            complement(101466..102221)
                      /number=2
                      /gene="ndhB"
@@ -1031,7 +1160,9 @@ FEATURES             Location/Qualifiers
                      /gene="rps7"
                      /translation="MSRRGTAEEKTAKSDPIYRNRLVNMLVNRILKHGKKSLAYQILYR
                      AMKKIQQKTETNPLSVLRQAIRGVTPDIAVKARRVGGSTHQVPVEIGSTQGKALAIRWL
-                     LGASRKRPGRNMAFKLSSELVDAAKGSGDAIRKKEETHRMAEANRAFAHFR*"
+                     LGASRKRPGRNMAFKLSSELVDAAKGSGDAIRKKEETHRMAEANRAFAHFR"
+                     /product="rps7"
+                     /transl_table=11
      exon            complement(104527..104553)
                      /number=3
                      /gene="rps12"
@@ -1114,6 +1245,7 @@ FEATURES             Location/Qualifiers
                      /gene="ycf1"
      CDS             116128..121821
                      /gene="ycf1"
+                     /product="ycf1"
                      /translation="MILKSFILGNLVSLCMKIVNSVVVVGLYYGFLTTFSMGPSYLFLL
                      RARVIEEGEEGTEKKVSATTGFITGQFMMFISIYYAPLHLALGRPHTITVLALPYLLFH
                      FFWNNHKHFFDYGSTTRNSMRNLSIQFVFLNNLIFQLFNHFILPSSMLVRLVNIYMFRC
@@ -1146,7 +1278,8 @@ FEATURES             Location/Qualifiers
                      QRQEISLNVLMIQNYLTLTELMKKGILIIEPVRLSVKNDEQFLLYQTVGILLVHKNKQQ
                      INKKYRDKIDSISIDSIERHQSLIGNRDKNNYYLLVPENILSPKRRRELRILISFTFKN
                      KNNIPINIEICNGNNIKNCGPFFQKSKDFYRDKNKLIKLKFFLWPNFRLEDLACMNRYW
-                     FDTNNASRFSMVRIYIYPRLSFW*"
+                     FDTNNASRFSMVRIYIYPRLSFW"
+                     /transl_table=11
      gene            122202..122474
                      /note="blatX_hit rps15_Rcommunis_GeSeq-SRS_v6, position 1 -
                      273, psl score 96.8, coverage 100.00%, match 96.70%"
@@ -1154,7 +1287,9 @@ FEATURES             Location/Qualifiers
      CDS             122202..122474
                      /gene="rps15"
                      /translation="MVKNSFISVISQEEKAENKGSVEFQIASFTNKIRKLTSHLELHRK
-                     DYSSQRGLRKILGKRQRLLSYLAKKNRVRYKELISQLDIRESKTR*"
+                     DYSSQRGLRKILGKRQRLLSYLAKKNRVRYKELISQLDIRESKTR"
+                     /product="rps15"
+                     /transl_table=11
      gene            122589..123764
                      /note="blatX_hit ndhH_Rcommunis_GeSeq-SRS_v6, position 1 -
                      1176, psl score 97.6, coverage 100.00%, match 97.53%"
@@ -1167,7 +1302,9 @@ FEATURES             Location/Qualifiers
                      AADLPHGWIDKCLDFCDYFLTGVAEYQKLITRNPIFLERVEGIGIVGAEEALNWGLSGP
                      MLRASGVQWDLRQVDHYECYDEFDWEVQWQKEGDSLSRYLVRIGEMLESIKIIQQALEG
                      IPGGPYENLETRRFERDPEWNDFEYRFISKKTSPTFELPKQELYVRVEAPKGELGIFLI
-                     GDQSGFPWRWKIRPPGFINLQILPELVKRMKLADIMTILGSIDIIMGEVDR*"
+                     GDQSGFPWRWKIRPPGFINLQILPELVKRMKLADIMTILGSIDIIMGEVDR"
+                     /product="ndhH"
+                     /transl_table=11
      gene            123766..126035
                      /note="blatX_hit ndhA_Rcommunis_GeSeq-SRS_v6, position 1 -
                      1092, psl score 94.9, coverage 100.00%, match 96.89%"
@@ -1180,7 +1317,9 @@ FEATURES             Location/Qualifiers
                      AAAQSISYEIPLTLCVLSISLLSNSSSTVDIVEAQSKSGFWGWNLWRQPIGFLIFLISS
                      LAECERLPFDLPEAEEELVAGYQTEYSGIKFGLFYISSYLNLLVSSLFVTVLYLGGWNI
                      SIPYIFVPEPFLTNKIGGVLGTTIGIFITLVKTYLFLFIPITTRWTLPRLRMDQLLNLG
-                     WKFLLPISLGNLLLTTSFQLLSL*"
+                     WKFLLPISLGNLLLTTSFQLLSL"
+                     /product="ndhA"
+                     /transl_table=11
      exon            123766..124316
                      /number=1
                      /gene="ndhA"
@@ -1196,17 +1335,21 @@ FEATURES             Location/Qualifiers
                      /gene="ndhI"
      CDS             126133..126648
                      /gene="ndhI"
+                     /product="ndhI"
                      /translation="MFPVVTGFMNYGQQTIRAARYIGQSFIITLSHANRLPVTIQYPYE
                      KLITSERFRGRIHFEFDKCIACEVCVRVCPIDLPVVDWKLETAIRKKRLLNYSIDFGIC
                      IFCGNCVEYCPTNCLSMTEEYELSTYDRHELNYNQIALGRLPMSVVDDYTIRTILNSTK
-                     KKKIDKPL*"
+                     KKKIDKPL"
+                     /transl_table=11
      gene            complement(144526..144573)
                      /note="blatX_hit ndhG_Rcommunis_GeSeq-SRS_v6, position 1 -
                      534, psl score 96.3, coverage 100.00%, match 96.25%"
                      /gene="ndhG"
      CDS             complement(144526..144573)
                      /gene="ndhG"
-                     /translation="IASLCLGCEGSQPHG*"
+                     /translation="MASLCLGCEGSQPHG"
+                     /product="ndhG"
+                     /transl_table=11
      gene            127792..128097
                      /note="blatX_hit ndhE_Rcommunis_GeSeq-SRS_v6, position 1 -
                      306, psl score 96.5, coverage 100.00%, match 96.41%"
@@ -1214,7 +1357,9 @@ FEATURES             Location/Qualifiers
      CDS             127792..128097
                      /gene="ndhE"
                      /translation="MMLEHVLVLSAYLFSIGIYGLITSRNMVRALMCLELILNAVNINF
-                     VTFSDFFDSRQLKGNIFSIFVIAIAAAEAAIGPAIVSSIYRNRKSTRINQSNLLNK*"
+                     VTFSDFFDSRQLKGNIFSIFVIAIAAAEAAIGPAIVSSIYRNRKSTRINQSNLLNK"
+                     /product="ndhE"
+                     /transl_table=11
      gene            128345..128590
                      /note="blatX_hit psaC_Rcommunis_GeSeq-SRS_v6, position 1 -
                      246, psl score 97.6, coverage 100.00%, match 97.56%"
@@ -1222,7 +1367,9 @@ FEATURES             Location/Qualifiers
      CDS             128345..128590
                      /gene="psaC"
                      /translation="MSHSVKIYDTCIGCTQCVRACPTDVLEMIPWDGCKSKQIASAPRT
-                     EDCVGCKRCESACPTDFLSVRVYLWHETTRSMALAY*"
+                     EDCVGCKRCESACPTDFLSVRVYLWHETTRSMALAY"
+                     /product="psaC"
+                     /transl_table=11
      gene            128724..130226
                      /note="blatX_hit ndhD_Rcommunis_GeSeq-SRS_v6, position 1 -
                      1503, psl score 96.8, coverage 100.00%, match 96.74%"
@@ -1238,18 +1385,23 @@ FEATURES             Location/Qualifiers
                      IGAALFFLAGTSYDRIRRVYLDEMGGMAALMPKIFTTFSILSLASLALPGMSGFFAELA
                      IFFGIITGQKYLLMSKIVITFGMAVGMILTPIYLLSMLRQMFYGYKLFTAPNSYFFDSG
                      PRELFVSISILLPVIGIGIYPDFLFSLSVDRVEALLSNYFYK"
+                     /transl_except=(pos:1..3,aa:Met)
+                     /product="ndhD"
+                     /transl_table=11
      gene            complement(130537..131502)
                      /note="blatX_hit ccsA_Rcommunis_GeSeq-SRS_v6, position 1 -
                      974, psl score 96.2, coverage 98.06%, match 94.29%"
                      /gene="ccsA"
      CDS             complement(130537..131502)
                      /gene="ccsA"
+                     /product="ccsA"
                      /translation="MIFATLEHILTHISFSVMSLVITIHLITLVVDEFVELYDSSEKGM
                      ITTFFCITGLLVTRWGFGGHLPLSNLYESLIFLSWAFSIIHMVPYFKKHKNFLSAITAP
                      STFFTQGFATSGLLTNTHQSKTLVPALQSQWLMMHVSMMIFGYAALLCGSLLSVAFLII
                      TFRKFIRIVDKSNNLLNASFSFSKIQYMTERKNVLRNISFLSSRNYYRFQLIQQLDDWS
                      YRIISIGFIFLTIGILSGAVWANEAWGSYWNWDPKETWAFITWTIFAIYFHTRTNKKFE
-                     GFNSAIVASMGFLIIWICYFGVNLLGIGLHSYGSFTLTSN*"
+                     GFNSAIVASMGFLIIWICYFGVNLLGIGLHSYGSFTLTSN"
+                     /transl_table=11
      gene            complement(131603..131682)
                      /note="annotated by ARAGORN v1.2.38, score: 124.2"
                      /gene="trnL-UAG"
@@ -1262,13 +1414,16 @@ FEATURES             Location/Qualifiers
      CDS             complement(132598..132771)
                      /gene="rpl32"
                      /translation="MAVPKKRTSRTKKRIRKNIWKKKGYWAVLKAFSLAKSLSTGNSKS
-                     FFVQEIKNQTLE*"
+                     FFVQEIKNQTLE"
+                     /product="rpl32"
+                     /transl_table=11
      gene            133621..135876
                      /note="blatX_hit ndhF_Rcommunis_GeSeq-SRS_v6, position 1 -
                      2248, psl score 94.7, coverage 100.18%, match 94.27%"
                      /gene="ndhF"
      CDS             133621..135876
                      /gene="ndhF"
+                     /product="ndhF"
                      /translation="MEHIYQYSWVIPFVTFPVPILIGAGLLLFPAATKRLRRMWAFPSL
                      FLLTIVMIFSINLSIHQLNSSFSYQYIWLWTINNDFSFEFGHLLDPLTSILSVLITTVG
                      IMVLFYSDNYMSHDQGYLRFFSYMSFFNTSMLGLITSSNLIQIYIFWELVGMCSYLLIG
@@ -1281,7 +1436,8 @@ FEATURES             Location/Qualifiers
                      NVRKMMWPFITINITRKNCNTKRIFSYPHESDNTMLFPMLVLVLFILFIGALGIPFNHE
                      GMEMDILSKLLTPSLNLLHQNPRNSLDWYEFATNSIFSVSIAFFGIFIASSFYKPAYSS
                      LQNLNFWNSLAKKGPKRIRWDKIINVIYNWSYNRGYIDAFYEIFFIGGIRKLAELIYFF
-                     DKRIIDGITNGVSVISFFVGEGIKYVGRGRISSYLLFFLFFTLIFLLIFSFFSFYSL*"
+                     DKRIIDGITNGVSVISFFVGEGIKYVGRGRISSYLLFFLFFTLIFLLIFSFFSFYSL"
+                     /transl_table=11
      gene            complement(135902..137817)
                      /note="blatX_hit ycf1-fragment_Rcommunis_GeSeq-SRS_v6,
                      position 1 - 1925, psl score 96.2, coverage 35.36%, match
@@ -1289,6 +1445,8 @@ FEATURES             Location/Qualifiers
                      /gene="ycf1-fragment"
      CDS             complement(135902..137817)
                      /gene="ycf1-fragment"
+                     /exception="Opposite IR fragment of protein ycf1"
+                     /product="ndhF"
                      /translation="MILKSFILGNLVSLCMKIVNSVVVVGLYYGFLTTFSMGPSYLFLL
                      RARVIEEGEEGTEKKVSATTGFITGQFMMFISIYYAPLHLALGRPHTITVLALPYLLFH
                      FFWNNHKHFFDYGSTTRNSMRNLSIQFVFLNNLIFQLFNHFILPSSMLVRLVNIYMFRC
@@ -1301,6 +1459,7 @@ FEATURES             Location/Qualifiers
                      TLNKTSIKNSTEMVWINKIHLILLISNYIEFEPKADRKSFSTEIAYCLNLINEFAGKSI
                      SSFHFKGFPLFPDYKEEKMNLELLQILKFVFDPVLANSKNKTIRKNSTGINGGIKEIKK
                      KVP"
+                     /transl_table=11
      gene            138152..138225
                      /note="annotated by ARAGORN v1.2.38, score: 122.5"
                      /gene="trnN-GUU"
@@ -1385,7 +1544,9 @@ FEATURES             Location/Qualifiers
                      /gene="rps7"
                      /translation="MSRRGTAEEKTAKSDPIYRNRLVNMLVNRILKHGKKSLAYQILYR
                      AMKKIQQKTETNPLSVLRQAIRGVTPDIAVKARRVGGSTHQVPVEIGSTQGKALAIRWL
-                     LGASRKRPGRNMAFKLSSELVDAAKGSGDAIRKKEETHRMAEANRAFAHFR*"
+                     LGASRKRPGRNMAFKLSSELVDAAKGSGDAIRKKEETHRMAEANRAFAHFR"
+                     /product="rps7"
+                     /transl_table=11
      gene            150265..152479
                      /note="blatX_hit ndhB_Rcommunis_GeSeq-SRS_v6, position 1 -
                      1533, psl score 98.4, coverage 100.00%, match 99.67%"
@@ -1400,7 +1561,9 @@ FEATURES             Location/Qualifiers
                      RIFDIPFYFSSNEWHLLLEILAILSMIVGNLIAITQTSMKRMLAYSSIGQIGYVIIGII
                      VGDSNGGYASMITYMLFYISMNLGTFACIVLFGLRTGTDNIRDYAGLYTKDPFLALSLA
                      LCLLSLGGLPPLAGFFGKLHLFWCGWQAGLYFLVLIGLLTSVVSIYYYLKIIKLLMTGR
-                     NQEITPHVRNYRRSPLRSNNSIELSMIVCVIASTIPGISMNPIIEIAQDTLF*"
+                     NQEITPHVRNYRRSPLRSNNSIELSMIVCVIASTIPGISMNPIIEIAQDTLF"
+                     /product="ndhB"
+                     /transl_table=11
      exon            150265..151041
                      /number=1
                      /gene="ndhB"
@@ -1460,7 +1623,9 @@ FEATURES             Location/Qualifiers
                      ARSFRGKRIIYNEEDELQENDSEFLQSGAMQYQIRDRSSKEQGFFRISQFIWDPADPLF
                      FLFKDQPPVSVFSHREFFADEEMSKGLLTSQTDPPTSIYKRWFLKNTQEKHFELLIHRQ
                      RWLRTNSSLSNGFFRSNTLSESYQYLSNLFLSNGTLLDQMTKALLRKRWLFPDEMKIGF
-                     M*"
+                     M"
+                     /product="ycf2"
+                     /transl_table=11
      gene            161099..161173
                      /note="annotated by ARAGORN v1.2.38, score: 108.8"
                      /gene="trnM-CAU"
@@ -1473,7 +1638,9 @@ FEATURES             Location/Qualifiers
      CDS             161338..161619
                      /gene="rpl23"
                      /translation="MDGIKYAVFTDKSIRLLGKNQYTLNVESGSTRTEIKHWVELFFGV
-                     KVIAMNSHRLPGKGRRMRPIMGHTMHYRRMIITLQPGYSIPPLRKKRT*"
+                     KVIAMNSHRLPGKGRRMRPIMGHTMHYRRMIITLQPGYSIPPLRKKRT"
+                     /product="rpl23"
+                     /transl_table=11
      gene            161638..163130
                      /note="blatX_hit rpl2_Rcommunis_GeSeq-SRS_v6, position 1 -
                      825, psl score 97.0, coverage 100.00%, match 99.52%"
@@ -1484,7 +1651,9 @@ FEATURES             Location/Qualifiers
                      IITARHRGGGHKRLYRKIDFRRNEKDIYGRIVTIEYDPNRNAYICLIHYGDGEKRYILH
                      PRGAIIGDTIISGTEVPIKMGNALPLTDMPLGTAIHNIEITLGKGGQLARAAGAVAKLI
                      AKEGKSATLKLPSGEVRLISKNCSATVGQVGNTGVNQKSLGRAGSKCWLGKRPVVRGVV
-                     MNPVDHPHGGGEGRAPIGRKKPATPWGYPALGRRSRKRNKYSDNLILRRRSK*"
+                     MNPVDHPHGGGEGRAPIGRKKPATPWGYPALGRRSRKRNKYSDNLILRRRSK"
+                     /product="rpl2"
+                     /transl_table=11
      exon            161638..162028
                      /number=1
                      /gene="rpl2"
@@ -1500,8 +1669,10 @@ FEATURES             Location/Qualifiers
                      /gene="rps19"
      CDS             163210..163488
                      /gene="rps19"
-                     /translation="VTRSLKKNPFVANHLLKKINKLNTKAEKEIIVTWSRASTIIPTMI
-                     GHTIAIHNGKEHLPIYITDRMVGHKLGEFAPTLNFRGHAKNDNKSRR*"
+                     /translation="MTRSLKKNPFVANHLLKKINKLNTKAEKEIIVTWSRASTIIPTMI
+                     GHTIAIHNGKEHLPIYITDRMVGHKLGEFAPTLNFRGHAKNDNKSRR"
+                     /product="rps19"
+                     /transl_table=11
      gene            complement(163783..163857)
                      /note="annotated by ARAGORN v1.2.38, score: 116.2"
                      /gene="trnH-GUG"
