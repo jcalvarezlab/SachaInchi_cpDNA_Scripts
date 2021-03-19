@@ -1,0 +1,24 @@
+Use of uninitialized value $maxColor in print at ./ogdraw line 238.
+Use of uninitialized value $transcript_legend in numeric eq (==) at ../lib/GeneMap/Plastome.pm line 1968.
+
+calculating GC content graph...
+adding inverted repeat labels...
+
+
+----IR-DEBUGGING----
+IRA and IRB as given (SEQLENGTH=163161)
+ IRA: 135815 : 163161
+ IRB: 89652 : 116998
+IRA and IRB in degrees:
+ IRA: 299.664° : 360.000°
+ IRB: 197.809° : 258.146°
+IRA and IRB in degrees after shifting (shiftssc=8.905°):
+ IRA: 290.759° : 351.095°
+ IRB: 188.905° : 249.241°
+IRA and IRB in degrees after modulo:
+ IRA: 290.759° : 351.095° (IRA-MID=320.927°)
+ IRB: 188.905° : 249.241° (IRB-MID=219.073°)
+ SSC-MID: 270.000°
+IRA and IRB in rad:
+ IRA_rad: 5.075° : 6.128°
+ IRB_rad: 3.297° : 4.350°
