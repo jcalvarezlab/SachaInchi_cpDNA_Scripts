@@ -1,4 +1,4 @@
-LOCUS       Plukenetia          164111 bp    DNA     circular     02-FEB-2020
+LOCUS       Plukenetia            164111 bp    DNA              UNK 02-FEB-2020
 DEFINITION  Plukenetia volubilis chloroplast, complete sequence.
 ACCESSION   Plukenetia
 VERSION     Plukenetia
@@ -51,13 +51,6 @@ FEATURES             Location/Qualifiers
                      74890..75003))
                      /trans_splicing=""
                      /gene="rps12"
-                     /translation_input="ATGCCAACTATTAAACAACTTATTAGAAACACAAGAAA
-                     GCCAATCAGAAATATTACCAAATCCCCCGCTCTTGGGGGATGTCCTCAGCGCCGAGGA
-                     ACATGTACTAGAGTGTATACTATCACCCCCAAAAAACCAAACTCTGCCTTACGTAAAG
-                     TTGCCAGAGTACGATTAACCTCTGGATTTGAAATCACTGCTTATATACCTGGTATTGG
-                     CCATAATTCACAAGAACATTCTGTAGTCTTAGTAAGAGGGGGAAGGGTTAAGGATTTA
-                     CCCGGTGTGAGATATCACATTGTTCGAGGGACCCTAGATGCTGTCGGAGTAAAGGATC
-                     GTCAACAAGGGCGTTCTCAATATGGGGTCAAAAAGCCAAAATAA"
                      /translation="MPTIKQLIRNTRKPIRNITKSPALGGCPQRRGTCTRVYTITPKKP
                      NSALRKVARVRLTSGFEITAYIPGIGHNSQEHSVVLVRGGRVKDLPGVRYHIVRGTLDA
                      VGVKDRQQGRSQYGVKKPK"
@@ -119,6 +112,7 @@ FEATURES             Location/Qualifiers
                      /gene="trnQ-UUG"
      tRNA            complement(7088..7160)
                      /gene="trnQ-UUG"
+                     /product="tRNA-Arg"
      gene            7589..7774
                      /note="blatX_hit psbK_Rcommunis_GeSeq-SRS_v6, position 1 -
                      186, psl score 99.0, coverage 100.00%, match 98.92%"
@@ -143,6 +137,7 @@ FEATURES             Location/Qualifiers
                      /gene="trnS-GGA"
      tRNA            complement(8467..8553)
                      /gene="trnS-GGA"
+                     /product="tRNA-Arg"
      gene            8964..10925
                      /note="blatX_hit ycf3_Rcommunis_GeSeq-SRS_v6, position 1 -
                      507, psl score 92.4, coverage 100.00%, match 99.01%"
@@ -227,11 +222,13 @@ FEATURES             Location/Qualifiers
                      /gene="trnM-CAU"
      tRNA            16780..16854
                      /gene="trnM-CAU"
+                     /product="tRNA-Arg"
      gene            complement(17046..17117)
                      /note="annotated by ARAGORN v1.2.38, score: 114.5"
                      /gene="trnG-GCC"
      tRNA            complement(17046..17117)
                      /gene="trnG-GCC"
+                     /product="tRNA-Arg"
      gene            complement(17946..18134)
                      /note="blatX_hit psbZ_Rcommunis_GeSeq-SRS_v6, position 1 -
                      189, psl score 98.5, coverage 100.00%, match 98.41%"
@@ -247,6 +244,7 @@ FEATURES             Location/Qualifiers
                      /gene="trnS-UGA"
      tRNA            18502..18591
                      /gene="trnS-UGA"
+                     /product="tRNA-Arg"
      gene            complement(18851..20236)
                      /note="blatX_hit psbC_Rcommunis_GeSeq-SRS_v6, position 1 -
                      1386, psl score 98.4, coverage 100.00%, match 98.34%"
@@ -284,21 +282,25 @@ FEATURES             Location/Qualifiers
                      /gene="trnT-GGU"
      tRNA            complement(23062..23135)
                      /gene="trnT-GGU"
+                     /product="tRNA-Arg"
      gene            23863..23935
                      /note="annotated by ARAGORN v1.2.38, score: 108.1"
                      /gene="trnE-UUC"
      tRNA            23863..23935
                      /gene="trnE-UUC"
+                     /product="tRNA-Arg"
      gene            23994..24079
                      /note="annotated by ARAGORN v1.2.38, score: 117.6"
                      /gene="trnY-GUA"
      tRNA            23994..24079
                      /gene="trnY-GUA"
+                     /product="tRNA-Arg"
      gene            24590..24663
                      /note="annotated by ARAGORN v1.2.38, score: 120.2"
                      /gene="trnD-GUC"
      tRNA            24590..24663
                      /gene="trnD-GUC"
+                     /product="tRNA-Arg"
      gene            25484..25588
                      /note="blatX_hit psbM_Rcommunis_GeSeq-SRS_v6, position 1 -
                      105, psl score 97.2, coverage 100.00%, match 97.14%"
@@ -322,6 +324,7 @@ FEATURES             Location/Qualifiers
                      /gene="trnC-GCA"
      tRNA            complement(27279..27349)
                      /gene="trnC-GCA"
+                     /product="tRNA-Arg"
      gene            28582..31794
                      /note="blatX_hit rpoB_Rcommunis_GeSeq-SRS_v6, position 1 -
                      3213, psl score 98.0, coverage 100.00%, match 97.91%"
@@ -349,7 +352,7 @@ FEATURES             Location/Qualifiers
                      LALELNHFLVSEKNFQINRKEA"
                      /product="rpoB"
                      /transl_table=11
-     gene            join(31821..32252,33059..34675)
+     gene            31821..34675
                      /note="blatX_hit rpoC1_Rcommunis_GeSeq-SRS_v6, position 1 -
                      2041, psl score 96.8, coverage 99.90%, match 97.70%"
                      /gene="rpoC1"
@@ -446,7 +449,7 @@ FEATURES             Location/Qualifiers
                      EGKIRGTLLLSLAFMEALTIYGLVVALALLFANPFV"
                      /product="atpH"
                      /transl_table=11
-     gene            join(43237..43380,44099..44509)
+     gene            43237..44509
                      /note="blatX_hit atpF_Rcommunis_GeSeq-SRS_v6, position 1 -
                      555, psl score 93.6, coverage 99.82%, match 97.66%"
                      /gene="atpF"
@@ -489,11 +492,13 @@ FEATURES             Location/Qualifiers
                      /gene="trnR-UCU"
      tRNA            complement(46193..46264)
                      /gene="trnR-UCU"
+                     /product="tRNA-Arg"
      gene            48710..48797
                      /note="annotated by ARAGORN v1.2.38, score: 118.2"
                      /gene="trnS-GCU"
      tRNA            48710..48797
                      /gene="trnS-GCU"
+                     /product="tRNA-Arg"
      gene            complement(49104..49712)
                      /note="blatX_hit rps4_Rcommunis_GeSeq-SRS_v6, position 1 -
                      606, psl score 96.7, coverage 100.50%, match 97.52%"
@@ -511,11 +516,13 @@ FEATURES             Location/Qualifiers
                      /gene="trnT-UGU"
      tRNA            complement(50124..50198)
                      /gene="trnT-UGU"
+                     /product="tRNA-Arg"
      gene            50631..51283
                      /note="annotated by ARAGORN v1.2.38, score: 104.0"
                      /gene="trnL-UAA"
      tRNA            join(50631..50668,51236..51283)
                      /gene="trnL-UAA"
+                     /product="tRNA-Arg"
      exon            50631..50668
                      /number=1
                      /gene="trnL-UAA"
@@ -530,6 +537,7 @@ FEATURES             Location/Qualifiers
                      /gene="trnF-GAA"
      tRNA            51677..51750
                      /gene="trnF-GAA"
+                     /product="tRNA-Arg"
      gene            complement(52499..52975)
                      /note="blatX_hit ndhJ_Rcommunis_GeSeq-SRS_v6, position 1 -
                      477, psl score 97.7, coverage 100.00%, match 97.69%"
@@ -570,6 +578,7 @@ FEATURES             Location/Qualifiers
                      /gene="trnC-ACA"
      tRNA            complement(join(54574..54629,55196..55234))
                      /gene="trnC-ACA"
+                     /product="tRNA-Arg"
      exon            complement(54574..54629)
                      /number=2
                      /gene="trnC-ACA"
@@ -584,6 +593,7 @@ FEATURES             Location/Qualifiers
                      /gene="trnM-CAU"
      tRNA            55416..55489
                      /gene="trnM-CAU"
+                     /product="tRNA-Arg"
      gene            complement(55738..56139)
                      /note="blatX_hit atpE_Hbrasiliensis_GeSeq-SRS_v6, position
                      1 - 402, psl score 96.8, coverage 100.00%, match 96.77%"
@@ -754,11 +764,13 @@ FEATURES             Location/Qualifiers
                      /gene="trnW-CCA"
      tRNA            complement(71019..71092)
                      /gene="trnW-CCA"
+                     /product="tRNA-Arg"
      gene            complement(71297..71372)
                      /note="annotated by ARAGORN v1.2.38, score: 117.5"
                      /gene="trnP-UGG"
      tRNA            complement(71297..71372)
                      /gene="trnP-UGG"
+                     /product="tRNA-Arg"
      gene            71989..72123
                      /note="blatX_hit psaJ_Rcommunis_GeSeq-SRS_v6, position 1 -
                      135, psl score 98.6, coverage 100.00%, match 98.52%"
@@ -811,21 +823,11 @@ FEATURES             Location/Qualifiers
                      149392..149418)
                      /trans_splicing=""
                      /gene="rps12"
-                     /translation_input="ATGCCAACTATTAAACAACTTATTAGAAACACAAGAAA
-                     GCCAATCAGAAATATTACCAAATCCCCCGCTCTTGGGGGATGTCCTCAGCGCCGAGGA
-                     ACATGTACTAGAGTGTATACTATCACCCCCAAAAAACCAAACTCTGCCTTACGTAAAG
-                     TTGCCAGAGTACGATTAACCTCTGGATTTGAAATCACTGCTTATATACCTGGTATTGG
-                     CCATAATTCACAAGAACATTCTGTAGTCTTAGTAAGAGGGGGAAGGGTTAAGGATTTA
-                     CCCGGTGTGAGATATCACATTGTTCGAGGGACCCTAGATGCTGTCGGAGTAAAGGATC
-                     GTCAACAAGGGCGTTCTCAATATGGGGTCAAAAAGCCAAAATAA"
                      /translation="MPTIKQLIRNTRKPIRNITKSPALGGCPQRRGTCTRVYTITPKKP
                      NSALRKVARVRLTSGFEITAYIPGIGHNSQEHSVVLVRGGRVKDLPGVRYHIVRGTLDA
                      VGVKDRQQGRSQYGVKKPK"
                      /product="rps12"
                      /transl_table=11
-     exon            complement(74890..75003)
-                     /number=1
-                     /gene="rps12"
      gene            complement(75200..77286)
                      /note="blatX_hit clpP_Rcommunis_GeSeq-SRS_v6, position 1 -
                      588, psl score 90.0, coverage 100.00%, match 96.43%"
@@ -1026,6 +1028,7 @@ FEATURES             Location/Qualifiers
                      /gene="trnH-GUG"
      tRNA            90088..90162
                      /gene="trnH-GUG"
+                     /product="tRNA-Arg"
      gene            complement(90457..90735)
                      /note="blatX_hit rps19_Rcommunis_GeSeq-SRS_v6, position 1 -
                      279, psl score 99.7, coverage 100.00%, match 99.64%"
@@ -1073,6 +1076,7 @@ FEATURES             Location/Qualifiers
                      /gene="trnM-CAU"
      tRNA            complement(92772..92846)
                      /gene="trnM-CAU"
+                     /product="tRNA-Arg"
      gene            92935..99801
                      /note="blatX_hit ycf2_Rcommunis_GeSeq-SRS_v6, position 1 -
                      6861, psl score 99.2, coverage 100.09%, match 99.26%"
@@ -1126,6 +1130,7 @@ FEATURES             Location/Qualifiers
                      /gene="trnL-CAA"
      tRNA            complement(100813..100895)
                      /gene="trnL-CAA"
+                     /product="tRNA-Arg"
      gene            complement(101466..103680)
                      /note="blatX_hit ndhB_Rcommunis_GeSeq-SRS_v6, position 1 -
                      1533, psl score 98.4, coverage 100.00%, match 99.67%"
@@ -1163,31 +1168,28 @@ FEATURES             Location/Qualifiers
                      LGASRKRPGRNMAFKLSSELVDAAKGSGDAIRKKEETHRMAEANRAFAHFR"
                      /product="rps7"
                      /transl_table=11
-     exon            complement(104527..104553)
-                     /number=3
-                     /gene="rps12"
      intron          complement(104554..105090)
                      /number=1
-                     /gene="rps12"
-     exon            complement(105091..105321)
-                     /number=2
                      /gene="rps12"
      gene            107249..107320
                      /note="annotated by ARAGORN v1.2.38, score: 113.4"
                      /gene="trnV-GAC"
      tRNA            107249..107320
                      /gene="trnV-GAC"
+                     /product="tRNA-Arg"
      gene            107553..109047
                      /note="blatN_hit rrn16_Rcommunis_GeSeq-SRS_v1, position 1 -
                      1491, psl score 99.5, coverage 100.27%, match 99.87%"
                      /gene="rrn16"
      rRNA            107553..109047
                      /gene="rrn16"
+                     /product="16S ribosomal RNA"
      gene            109336..110360
                      /note="annotated by ARAGORN v1.2.38, score: 108.2"
                      /gene="trnI-GAU"
      tRNA            join(109336..109371,110304..110360)
                      /gene="trnI-GAU"
+                     /product="tRNA-Arg"
      exon            109336..109371
                      /number=1
                      /gene="trnI-GAU"
@@ -1202,6 +1204,7 @@ FEATURES             Location/Qualifiers
                      /gene="trnA-UGC"
      tRNA            join(110425..110461,111265..111300)
                      /gene="trnA-UGC"
+                     /product="tRNA-Arg"
      exon            110425..110461
                      /number=1
                      /gene="trnA-UGC"
@@ -1217,28 +1220,33 @@ FEATURES             Location/Qualifiers
                      /gene="rrn23"
      rRNA            111460..114269
                      /gene="rrn23"
+                     /product="23S ribosomal RNA"
      gene            114368..114470
                      /note="blatN_hit rrn4.5_Vvinifera_GeSeq-SRS_v1, position 1
                      - 103, psl score 100.0, coverage 100.00%, match 100.00%"
                      /gene="rrn4.5"
      rRNA            114368..114470
                      /gene="rrn4.5"
+                     /product="4.5S ribosomal RNA"
      gene            114695..114815
                      /note="blatN_hit rrn5_Rcommunis_GeSeq-SRS_v1, position 1 -
                      121, psl score 100.0, coverage 100.00%, match 100.00%"
                      /gene="rrn5"
      rRNA            114695..114815
                      /gene="rrn5"
+                     /product="5S ribosomal RNA"
      gene            115057..115131
                      /note="annotated by ARAGORN v1.2.38, score: 115.9"
                      /gene="trnR-ACG"
      tRNA            115057..115131
                      /gene="trnR-ACG"
+                     /product="tRNA-Arg"
      gene            complement(115720..115793)
                      /note="annotated by ARAGORN v1.2.38, score: 122.5"
                      /gene="trnN-GUU"
      tRNA            complement(115720..115793)
                      /gene="trnN-GUU"
+                     /product="tRNA-Arg"
      gene            116128..121821
                      /note="blatX_hit ycf1_Rcommunis_GeSeq-SRS_v6, position 1 -
                      5397, psl score 93.5, coverage 105.44%, match 92.45%"
@@ -1385,7 +1393,8 @@ FEATURES             Location/Qualifiers
                      IGAALFFLAGTSYDRIRRVYLDEMGGMAALMPKIFTTFSILSLASLALPGMSGFFAELA
                      IFFGIITGQKYLLMSKIVITFGMAVGMILTPIYLLSMLRQMFYGYKLFTAPNSYFFDSG
                      PRELFVSISILLPVIGIGIYPDFLFSLSVDRVEALLSNYFYK"
-                     /transl_except=(pos:1..3,aa:Met)
+                     /transl_except=(pos:128724..128726,aa:Met)
+                     /note="Alternative start codon hypothesized"
                      /product="ndhD"
                      /transl_table=11
      gene            complement(130537..131502)
@@ -1407,6 +1416,7 @@ FEATURES             Location/Qualifiers
                      /gene="trnL-UAG"
      tRNA            complement(131603..131682)
                      /gene="trnL-UAG"
+                     /product="tRNA-Arg"
      gene            complement(132598..132771)
                      /note="blatX_hit rpl32_Rcommunis_GeSeq-SRS_v6, position 1 -
                      174, psl score 95.5, coverage 100.00%, match 95.40%"
@@ -1445,7 +1455,7 @@ FEATURES             Location/Qualifiers
                      /gene="ycf1-fragment"
      CDS             complement(135902..137817)
                      /gene="ycf1-fragment"
-                     /exception="Opposite IR fragment of protein ycf1"
+                     /pseudogene="unprocessed"
                      /product="ndhF"
                      /translation="MILKSFILGNLVSLCMKIVNSVVVVGLYYGFLTTFSMGPSYLFLL
                      RARVIEEGEEGTEKKVSATTGFITGQFMMFISIYYAPLHLALGRPHTITVLALPYLLFH
@@ -1465,34 +1475,40 @@ FEATURES             Location/Qualifiers
                      /gene="trnN-GUU"
      tRNA            138152..138225
                      /gene="trnN-GUU"
+                     /product="tRNA-Arg"
      gene            complement(138814..138888)
                      /note="annotated by ARAGORN v1.2.38, score: 115.9"
                      /gene="trnR-ACG"
      tRNA            complement(138814..138888)
                      /gene="trnR-ACG"
+                     /product="tRNA-Arg"
      gene            complement(139130..139250)
                      /note="blatN_hit rrn5_Rcommunis_GeSeq-SRS_v1, position 1 -
                      121, psl score 100.0, coverage 100.00%, match 100.00%"
                      /gene="rrn5"
      rRNA            complement(139130..139250)
                      /gene="rrn5"
+                     /product="5S ribosomal RNA"
      gene            complement(139475..139577)
                      /note="blatN_hit rrn4.5_Vvinifera_GeSeq-SRS_v1, position 1
                      - 103, psl score 100.0, coverage 100.00%, match 100.00%"
                      /gene="rrn4.5"
      rRNA            complement(139475..139577)
                      /gene="rrn4.5"
+                     /product="4.5S ribosomal RNA"
      gene            complement(139676..142485)
                      /note="blatN_hit rrn23_Rcommunis_GeSeq-SRS_v1, position 1 -
                      2810, psl score 99.8, coverage 100.00%, match 99.75%"
                      /gene="rrn23"
      rRNA            complement(139676..142485)
                      /gene="rrn23"
+                     /product="23S ribosomal RNA"
      gene            complement(142645..143520)
                      /note="annotated by ARAGORN v1.2.38, score: 111.0"
                      /gene="trnA-UGC"
      tRNA            complement(join(142645..142680,143484..143520))
                      /gene="trnA-UGC"
+                     /product="tRNA-Arg"
      exon            complement(142645..142680)
                      /number=2
                      /gene="trnA-UGC"
@@ -1507,6 +1523,7 @@ FEATURES             Location/Qualifiers
                      /gene="trnI-GAU"
      tRNA            complement(join(143585..143641,144574..144609))
                      /gene="trnI-GAU"
+                     /product="tRNA-Arg"
      exon            complement(143585..143641)
                      /number=2
                      /gene="trnI-GAU"
@@ -1522,19 +1539,15 @@ FEATURES             Location/Qualifiers
                      /gene="rrn16"
      rRNA            complement(144898..146392)
                      /gene="rrn16"
+                     /product="16S ribosomal RNA"
      gene            complement(146625..146696)
                      /note="annotated by ARAGORN v1.2.38, score: 113.4"
                      /gene="trnV-GAC"
      tRNA            complement(146625..146696)
                      /gene="trnV-GAC"
-     exon            148624..148854
-                     /number=2
-                     /gene="rps12"
+                     /product="tRNA-Arg"
      intron          148855..149391
                      /number=1
-                     /gene="rps12"
-     exon            149392..149418
-                     /number=3
                      /gene="rps12"
      gene            149477..149944
                      /note="blatX_hit rps7_Rcommunis_GeSeq-SRS_v6, position 1 -
@@ -1578,6 +1591,7 @@ FEATURES             Location/Qualifiers
                      /gene="trnL-CAA"
      tRNA            153050..153132
                      /gene="trnL-CAA"
+                     /product="tRNA-Arg"
      gene            complement(154144..161010)
                      /note="blatX_hit ycf2_Rcommunis_GeSeq-SRS_v6, position 1 -
                      6861, psl score 99.2, coverage 100.09%, match 99.26%"
@@ -1631,6 +1645,7 @@ FEATURES             Location/Qualifiers
                      /gene="trnM-CAU"
      tRNA            161099..161173
                      /gene="trnM-CAU"
+                     /product="tRNA-Arg"
      gene            161338..161619
                      /note="blatX_hit rpl23_Rcommunis_GeSeq-SRS_v6, position 1 -
                      282, psl score 99.7, coverage 100.00%, match 99.65%"
@@ -1678,6 +1693,17 @@ FEATURES             Location/Qualifiers
                      /gene="trnH-GUG"
      tRNA            complement(163783..163857)
                      /gene="trnH-GUG"
+                     /product="tRNA-Arg"
+     gene            109372..109419
+                     /note="blast_hit with ndhG protein from this sequence,
+                     position 1 - 48, score 89.9 bits, coverage 100.00%, match
+                     100.00%"
+                     /gene="ndhG"
+     CDS             109372..109419
+                     /gene="ndhG"
+                     /translation="MASLCLGCEGSQPHG"
+                     /product="ndhG"
+                     /transl_table=11
 ORIGIN
         1 caatagccaa tttcttgttc tatcaagaaa gttggtattt ctcctttttt ttcttttttt
        61 attttcaagt ttaattgaac tcgcgtatac gaagaccgaa gtcttatcca tttatagatg
